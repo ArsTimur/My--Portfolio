@@ -1,0 +1,772 @@
+@import '../styles/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+.first-display-container{
+    max-width: 1200px;
+    padding: 20px 30px 0 30px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    max-width: 1200px;
+    width: 100%;
+    background-color: $white;
+    border-radius: 75px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.menu-container{
+    gap: 0 70px;
+}
+.nav{
+    width: 100%;
+}
+.nav-bg{
+    width: 100%;
+}
+.menu{
+    gap: 0 50px;
+}
+.nav-sign-buttons{
+    gap: 0 15px;
+}
+.burger-btn{
+    display: none;
+}
+.close-burger-menu{
+    display: none;
+}
+.menu-list-link{
+    color: $darkblue;
+    font-size: 0.8125rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.menu-list-link:hover{
+    color: $orange;
+    
+}
+.sign-in-button{
+    background-color: $lightskybluebg;
+    border-radius: 35px;
+    width: 77px;
+    height: 30px;
+    gap: 0 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.sign-in-button:hover{
+    color: $white;
+    background-color: $orange;
+}
+.sign-in-link{
+    color: $white;
+}
+.sign-in-link:hover{
+    color: $white;
+}
+.mobile-signin-button{
+    display: none;
+}
+.arrow-down-btn{
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.top-right-arrow-svg{
+    max-width: 15px !important;
+    width: 100%;
+}
+.first-disp-info{
+    height: 80vh;
+    margin: 0 0 0 auto;
+}
+.info-about-school{
+    gap: 30px 0;
+    
+}
+.mobile-first-disp-pic{
+    display: none;
+  }
+.big-title{
+    font-size: 2.875rem;
+    color: $darkblue;
+    font-weight: 500;
+    max-width: 720px;
+    width: 100%;
+    line-height: 50px;
+}
+.to-test-descr{
+    max-width: 410px;
+    width: 100%;
+    border-top: 1px solid #DEDEDE;
+    padding: 20px 0 0 0;
+    font-size: 1rem;
+}
+.brace{
+    color: $orange;
+}
+.inside-brace-text{
+    font-style: italic;
+    font-weight: 600;
+}
+.start-test-btn{
+    background-color: $orange;
+    max-width: 320px;
+    width: 100%;
+    height: 70px;
+    border-radius: 82px;
+    cursor: pointer;
+    
+}
+.start-test{
+    transition: 0.3s ease;
+}
+.start-test:hover {
+    background-color: $lightskybluebg;
+}
+.start-button-title{
+    gap: 0 10px;
+    color: $white;
+}
+.which-technologies-learn{
+    gap: 1rem 0;
+    margin: 5rem 0;
+    padding: 0 20px;
+}
+.technologies-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 1rem auto;
+    background-color: $lightblue;
+    border-radius: 50px;
+    padding: 0rem 6rem 0 8rem;
+}
+.techno-side-pic{
+    padding: 2.8rem 0 0 0;
+}
+.technologies{
+    gap: 10px 0;
+}
+.mobile-technologies{
+    display: none;
+}
+.techno-line{
+    gap: 0 10px;
+}
+.technology{
+    padding: 13px 30px;
+    border-radius: 45px;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1rem;
+}
+.python{
+    background-color: $tech-blue;
+}
+.networks{
+    background-color: $tech-lightorange;
+}
+.data-bases{
+    background-color: $tech-orange;
+}
+.flask-and-django{
+    background-color: $tech-lightgreen;
+}
+.debugging-and-testing{
+    background-color: $tech-lightskyblue;
+}
+.docker{
+    background-color: $tech-darkblue;
+}
+.git{
+    background-color: $tech-lightpurple;
+}
+.descr-to-techno{
+    max-width: 385px;
+    width: 100%;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+}
+
+.to-features-title{
+    max-width: 600px;
+    width: 100%;
+}
+.features{
+    padding: 0 20px;
+}
+.features-container{
+    max-width: 1200px;
+    margin: 2rem auto;
+    gap: 0 20px;
+}
+.feature {
+    max-width: 270px !important;
+    width: 100%;
+    flex-basis: 31%;
+    margin-bottom: 30px;
+    padding: 40px 30px;
+    text-align: center;
+    background-color: $lightblue;
+    height: 255px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0;
+  }
+  .feature-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+  }
+.feature-title{
+    color: $darkblue;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.feature-descr{
+    color: $darkblue;
+    font-size: 0.81rem;
+}
+
+.to-learning-block-descr{
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto 0 auto;
+    font-size: 1rem;
+}
+.notebook-screen{
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.video-play-elements{
+    position: absolute;
+    gap: 10px 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.play-btn-svg{
+    max-width: 120px !important;
+    width: 100%;
+}
+.play-btn-rect{
+    max-width: 120px !important;
+    width: 100%;
+}
+.notebook-screen-img{
+    margin: 0 auto;
+}
+.play-btn-title{
+    color: $white;
+    font-size: 1.25rem;
+}
+.learning-process-descr{
+    max-width: 1200px;
+    width: 100%;
+    margin: 1rem auto 2rem auto;
+    border-radius: 40px;
+    background-color: $white;
+    padding: 60px 55px;
+    gap: 0 30px;
+}
+.lp-descr{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+.lp-descr-num{
+    color: $lightskybluebg;
+    font-size: 4.81rem;
+    font-weight: 700;
+}
+.lp-descr-title{
+    color: $darkblue;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.lp-descr-descr{
+    color: $darkblue;
+    font-size: 1rem;
+    line-height: 23px;
+}
+.lp-right-line{
+    opacity: 0.1;
+    border-color: $lightblue;
+}
+.start-learn-container{
+    max-width: 560px;
+    width: 100%;
+    background-color: $white;
+    border-radius: 110px;
+    margin: 0 auto;
+    padding: 10px;
+    gap: 0 20px;
+}
+.start-learn-button{
+    background-color: $orange;
+    font-size: 1rem;
+    max-width: 250px;
+    width: 100%;
+    height: 70px;
+    border-radius: 82px;
+    cursor: pointer;
+    color: $white;
+    gap: 0 10px;
+}
+.start-btn-descr{
+    color: $darkblue;
+    font-size: 1rem;
+    font-weight: 600;
+    max-width: 260px;
+}
+.pros-section{
+    padding:0 0 6rem 0;
+}
+.some-our-pros{
+    max-width: 1200px;
+    width: 100%;
+    margin: 3rem auto;
+    gap: 20px;
+    padding: 0 20px;
+    
+}
+.first-pros-line{
+    gap: 0 20px;
+}
+.sec-pros-line{
+    gap: 0 20px;
+}
+.pro-block{
+    background-color: $lightblue;
+    border-radius: 40px;
+    padding: 30px 80px;
+}
+.pros-illustration-first{
+    max-width: 400px;
+    width: 100%;
+    height: 315px;
+}
+.pros-illustration-sec{
+    max-width: 400px;
+    width: 100%;
+    
+}
+.pros-info{
+    max-width: 730px;
+    width: 100%;
+    gap: 20px 0;
+    padding: 50px 90px ;
+    height: 100%;
+}
+.first-line-pro-block{
+    height: 315px;
+}
+.sec-line-pro-block{
+    height: 290px;
+}
+
+.pro-title{
+    color: $darkblue;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.pro-descr{
+    font-size: 1rem;
+    color: $darkblue;
+    line-height: 25px;
+}
+.prices-and-footer-section{
+    background-color: #F9F8FD;
+    padding: 8rem 0 0 0;
+}
+
+.prices-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.conditions-line{
+    margin: 3rem auto;
+}
+.condition{
+    display: flex; 
+    align-items: center;
+    gap: 0 30px;
+}
+.condit-descr{
+    max-width: 330px;
+    font-size: 1rem;
+    color: $darkblue;
+    line-height: 21px;
+}
+.second-condit-descr{
+    max-width: 180px;
+}
+.price-table-container{
+    background-color: $white;
+    border-radius: 30px;
+    padding: 40px;
+    
+}
+
+
+.table-row {
+    display: table-row;
+    margin: 0 auto;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    padding: 17px;
+    font-size: 1.25rem;
+    color: $darkblue;
+  }
+  .title-cell{
+    color: $lightskybluebg;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .first-cell{
+    width: 600px;
+    border-radius: 10px 0 0 10px;
+  }
+  .second-cell{
+    width: 300px;
+  }
+  .third-cell{
+    width: 350px;
+    border-radius: 0 10px 10px 0;
+  }
+  .title-third-cell{
+    padding: 0;
+  }
+  .gray-row{
+    background-color: $lightgray;
+  }
+  .total-cell{
+    padding: 30px 0 0 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $darkblue;
+  }
+  .nuance-for-pricing{
+    color: $gray;
+    margin: 30px 0 50px 40px;
+  }
+  .education-nuances-start-educbtn{
+    padding: 70px 50px;
+    background-color: $lightblue;
+    border-radius: 30px;
+    gap: 0 20px;
+  }
+  .educ-nuance-descr{
+    max-width: 580px;
+    width: 100%;
+    font-size: 1.0625rem;
+  }
+  .start-education-button{
+    background-color: $orange;
+    font-size: 1rem;
+    max-width: 310px;
+    width: 100%;
+    height: 70px;
+    border-radius: 82px;
+    cursor: pointer;
+    color: $white;
+    gap: 0 10px;
+  }
+  .footer{
+    padding: 0 30px;
+  }
+  .footer-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 10rem auto 5rem auto;
+  }
+  .foot-bran-and-soc-media{
+    gap: 35px 0;
+  }
+  .foot-brand-info{
+    gap: 0 20px;
+  }
+  .foot-brand-title{
+    max-width: 160px;
+  }
+  .foot-social-media{
+    gap: 0 10px;
+  }
+  .social-media-svg{
+    cursor: pointer;
+  }
+  .social-media-svg:hover path#socmed-svgs-fill-path{
+    transition: 0.3s ease;
+    
+  }
+  .social-media-svg:hover path#socmed-svgs-fill-path {
+    fill: $orange;
+  }
+  .sitemap-links{
+    gap: 15px 0;
+  }
+  .foot-sitemap-link{
+    color: $darkblue;
+    font-size: 0.81rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+  .foot-sitemap-link:hover{
+    color: $orange;
+  }
+  .about-the-site{
+    max-width: 500px;
+    width: 100%;
+  }
+  .phonenum-and-mail{
+    gap: 10px 0;
+  }
+  .phone-number{
+    color: $lightskybluebg;
+    font-size: 1rem;
+  }
+  .foot-mail-address{
+    color: $darkblue;
+    font-size: 1rem;
+  }
+  .founder-info-block{
+    gap: 10px 0;
+  }
+  .founder-info{    
+    color: $gray;
+    font-size: 0.81rem;
+  }
+  .footerline{
+    max-width: 1200px;
+    width: 100%;
+    opacity: 0.3;
+  }
+  .footer-last-line{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 35px 0;
+  }
+  .userpolicies{
+    gap: 0 50px;
+  }
+  .foot-last-line-text{
+    color: $gray;
+    font-size: 1rem;
+
+  }
+  .modals-container{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #191A26E5;    
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+  }
+
+.start-modalbutton-title{
+    gap: 0 10px;
+    color: $white;
+}
+.modal-window{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    max-width: 750px;
+    width: calc(100% - 20px); /* Учитываем левый и правый отступы */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $white;
+    padding: 50px 50px;
+    border-radius: 30px;
+    gap: 20px 0;
+    user-select: none;
+}
+
+.close-modal-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 25px 25px 0 0;
+    cursor: pointer;
+}
+.modal-title{
+    font-size: 1.5rem;
+}
+.question-num-title {
+    background-color: $lightgray2;
+    padding: 12px 0;
+    max-width: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.modal-info-descr-text {
+    color: $darkblue;
+    font-size: 0.937rem;
+    line-height: 20px;
+    max-width: 520px;
+    
+}
+.modal-btn{
+    display: flex;
+    background-color: $orange;
+    color: $white;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    padding: 22px 0;
+    cursor: pointer;
+}
+// First Two Modals BTN
+.modal-start-button{
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+// Submit Answer Buttons
+.answer-submit-btn{
+    max-width: 130px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+}
+// To Next Question Button
+.to-next-question-btn{
+    max-width: 130px;
+    width: 100%;
+    margin: 0 0 0 auto;
+    max-height: 50px;
+    height: 100%;
+}
+// Внутри первых двух кнопок
+.test-start-button-inside{
+    gap: 0 10px;
+}
+
+// Все кнопки кроме первых двух
+.inside-modal-btn{
+    display: flex;
+    gap: 0 10px;
+    color: $white;
+}
+// Кнопка завершения теста
+.finish-test-btn{
+    margin: 0 auto;
+    max-width: 270px;
+    width: 100%;
+    background-color: $orange;
+    border-radius: 80px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.answer-options-and-submit{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    gap: 0 10px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+.option{
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: none;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background-color: $lightgray2; /* Задаем серый цвет фона */
+    border-radius: 5px;
+  }
+  
+  /* Стили для заполнения при отметке */
+  input[type="checkbox"]:checked::before {
+    content: "";
+    position: absolute;
+    top: 50%; /* Регулируем отступ сверху */
+    left: 50%; /* Регулируем отступ слева */
+    transform: translate(-50%, -50%);
+    width: 14px; /* Регулируем ширину заполнения */
+    height: 14px; /* Регулируем высоту заполнения */
+    background-color: $orange; /* Задаем оранжевый цвет заполнения */
+    border-radius: 4px;
+  }
+  .option-title{
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .test-result{
+    background-color: $lightgray2;
+    border-radius: 40px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 0;
+  }
+  .test-result-num{
+    text-transform: uppercase;
+    font-size: 0.87rem;
+  }
+  .to-result-descr{
+    font-weight: 500;
+    font-size: 1.12rem;
+  }
+
+.active{
+    display: flex !important;
+}
+.hide{
+    display: none !important;
+}
+  
+  
+  

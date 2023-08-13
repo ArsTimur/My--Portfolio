@@ -1,0 +1,102 @@
+@import "./colors.scss";
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+  justify-content: space-around;
+}
+.flex-column{
+  flex-direction: column;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-end{
+  justify-content: flex-end;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.text-center{
+  text-align: center;
+}
+.margin-zero-auto{
+  margin: 0 auto;
+}
+.main-color {
+  color: $darkblue;
+}
+.pointer{
+  cursor: pointer;
+}
+.orange {
+  color: $orange;
+}
+.to-block-title{
+  color: $darkblue;
+  font-size: 2.875rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+}

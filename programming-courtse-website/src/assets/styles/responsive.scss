@@ -1,0 +1,803 @@
+@import "../styles/colors.scss";
+body {
+  overflow-x: hidden;
+}
+@media (max-width: 1520px) {
+  /* Стили для больших мониторов и широких экранов */
+  .learning-process {
+    padding: 8rem 20px 8rem 20px !important;
+  }
+}
+@media (max-width: 1200px) {
+  /* Стили для больших мониторов и широких экранов */
+  .technologies-container {
+    padding: 0 2.5rem 0 2.5rem;
+  }
+  .technology {
+    font-size: 0.9rem;
+  }
+  .learning-process-descr {
+    padding: 50px 40px;
+  }
+  .lp-descr-num {
+    font-size: 4.3rem;
+  }
+  .lp-descr-title {
+    font-size: 1rem;
+  }
+  .lp-descr-descr {
+    font-size: 0.8rem;
+    line-height: 20px;
+  }
+  .pro-title {
+    font-size: 1.8rem;
+  }
+  .pro-descr {
+    font-size: 0.9rem;
+  }
+  .pros-info {
+    padding: 50px 70px;
+  }
+  .conditions-line {
+    gap: 0 10px;
+  }
+  .condit-descr {
+    font-size: 0.8rem;
+    max-width: 300px;
+  }
+  .second-condit-descr {
+    max-width: 150px;
+  }
+  .education-nuances-start-educbtn {
+    padding: 70px 30px;
+  }
+  .educ-nuance-descr {
+    font-size: 0.9rem;
+    max-width: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  /* Стили для больших мониторов и широких экранов */
+}
+
+@media (max-width: 1199px) {
+  /* Стили для средних и больших ноутбуков и мониторов */
+}
+@media (max-width: 1080px) {
+  .condit-descr {
+    font-size: 0.8rem;
+    max-width: 280px;
+  }
+  .second-condit-descr {
+    max-width: 140px;
+  }
+}
+@media (max-width: 1024px) {
+  .big-title {
+    max-width: 580px;
+    font-size: 2.3rem;
+  }
+  .technology {
+    font-size: 0.8rem;
+  }
+  .descr-to-techno {
+    font-size: 0.8rem;
+  }
+  .to-block-title {
+    font-size: 2.5rem;
+  }
+  .pros-info {
+    padding: 30px 60px;
+  }
+  .table-cell {
+    font-size: 1rem;
+  }
+  .title-cell {
+    font-size: 0.7rem;
+  }
+  .educ-nuance-descr {
+    font-size: 0.8rem;
+    max-width: 450px;
+  }
+  .start-education-button {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Стили для планшетов и маленьких ноутбуков */
+  .menu-container {
+    gap: 0 30px;
+  }
+  .menu-list-link {
+    font-size: 0.7rem;
+  }
+  .menu {
+    gap: 0 25px;
+  }
+  .techno-side-img {
+    max-width: 320px;
+  }
+  .pros-info {
+    padding: 20px 30px;
+  }
+  .pro-title {
+    font-size: 1.7rem;
+  }
+  .pro-descr {
+    font-size: 0.8rem;
+    line-height: 20px;
+  }
+  .condit-descr {
+    font-size: 0.7rem;
+    line-height: 18px;
+    max-width: 250px;
+  }
+  .second-condit-descr {
+    max-width: 130px;
+  }
+  .footer-container {
+    gap: 0 30px;
+  }
+  .about-the-site {
+    max-width: 400px;
+  }
+  .foot-last-line-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .to-block-title {
+    font-size: 2rem;
+  }
+  .technologies-container {
+    padding: 0rem 2rem 0 2rem;
+    justify-content: center;
+    gap: 0 40px;
+  }
+  .techno-side-img {
+    max-width: 280px;
+  }
+  .technology {
+    padding: 10px 20px;
+  }
+  .feature {
+    flex-basis: 50%;
+  }
+  .learning-process-descr {
+    gap: 0 20px;
+    padding: 40px 30px;
+  }
+
+  .lp-descr-title {
+    font-size: 0.9rem;
+  }
+  .lp-descr-descr {
+    font-size: 0.7rem;
+  }
+  .pro-title {
+    font-size: 1.5rem;
+  }
+  .pro-descr {
+    font-size: 0.7rem;
+    line-height: 20px;
+  }
+  .conditions-line{
+    flex-direction: column;
+    gap: 15px 0;
+  }
+  .condition-second{
+    justify-content: center;
+  }
+  .condition-third{
+    justify-content: flex-end;
+  }
+  .table-cell {
+    font-size: 0.9rem;
+  }
+  .educ-nuance-descr {
+    max-width: 400px;
+  }
+  .start-education-button {
+    max-width: 200px;
+  }
+  .userpolicies {
+    gap: 0 30px;
+  }
+}
+
+@media (max-width: 821px) {
+  /* Стили для планшетов и маленьких ноутбуков */
+  .menu-container {
+    gap: 0 20px;
+  }
+  .menu-list-link {
+    font-size: 0.7rem;
+  }
+  .menu {
+    gap: 0 20px;
+  }
+  .techno-side-img {
+    max-width: 250px;
+  }
+  .technology {
+    padding: 9px 15px;
+  }
+  .pro-title {
+    font-size: 1.4rem;
+  }
+  .pro-descr {
+    font-size: 0.7rem;
+    line-height: 20px;
+  }
+  .table-cell {
+    font-size: 0.85rem;
+  }
+  .educ-nuance-descr {
+    max-width: 360px;
+  }
+  .start-education-button {
+    max-width: 200px;
+  }
+  .about-the-site {
+    max-width: 380px;
+  }
+  .foot-last-line-text {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 769px) {
+  /* Стили для мобильных устройств */
+
+  .menu-container {
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+  .menu {
+    flex-direction: column;
+    gap: 30px 0;
+  }
+  .menu-list-link {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    border-radius: 20px;
+    margin: 10px 10px 0 0;
+    width: 50%;
+    height: 95%;
+    background-color: $white;
+    z-index: 99;
+    padding: 70px 50px 30px 50px;
+    gap: 30px 0;
+    border: 1px solid $gray;
+    transition: 1s ease;
+    pointer-events: none;
+  }
+  .nav-bg {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 98;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: 1s ease;
+  }
+  .nav-sign-buttons {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .normal-sign-in-button {
+    max-width: 130px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+  }
+  .sign-in-link {
+    font-size: 0.9rem;
+  }
+  .mobile-signin-button {
+    display: flex;
+  }
+  .burger-btn {
+    display: block;
+  }
+  .close-burger-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 30px 30px 0 0;
+    cursor: pointer;
+  }
+  .nav-bg-active {
+    opacity: 1 !important;
+    transition: 1s ease;
+    pointer-events: all;
+    background: #191a26e5;
+  }
+  .burger-active {
+    right: 0 !important;
+    transition: 1s ease !important;
+    pointer-events: all;
+  }
+  .first-display {
+    background: url("../images/mobversfirstdispbg.png") no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100% !important;
+    height: 1200px !important;
+    
+  }
+  .first-display-container {
+    padding: 20px 20px;
+  }
+  .first-disp-info{
+    flex-direction: column;
+    gap: 50px 0;
+  }
+  .info-about-school {
+    margin: 3rem auto 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+  .mobile-first-disp-pic{
+    display: block;
+  }
+  .start-test-btn {
+    max-width: 500px;
+    height: 80px;
+  }
+  .technologies-container {
+    padding: 3rem 3rem;
+  }
+  .desktop-technologies {
+    display: none;
+  }
+  .mobile-technologies {
+    display: flex;
+    width: 100%;
+    gap: 15px 0;
+  }
+  .techno-side-pic {
+    display: none;
+  }
+  .techno-line {
+    gap: 0 20px;
+  }
+  .technology {
+    font-size: 1rem;
+    padding: 25px 30px;
+    width: 100%;
+  }
+  .descr-to-techno {
+    display: none;
+  }
+  .feature {
+    flex-basis: 100% !important;
+  }
+  .last-feature {
+    max-width: 100%;
+    padding: 30px 30px;
+  }
+  .learning-process-descr {
+    flex-direction: column;
+  }
+  .lp-descr-num {
+    font-size: 4.81rem;
+  }
+  .lp-descr-title {
+    font-size: 1.5rem;
+  }
+  .lp-descr-descr {
+    font-size: 1rem;
+    line-height: 23px;
+  }
+  .learning-process {
+    padding: 10rem 20px 10rem 20px !important;
+  }
+  .pros-line {
+    flex-direction: column;
+    gap: 20px 0;
+  }
+  .sec-pros-line {
+    flex-direction: column-reverse;
+  }
+  .first-line-pro-block {
+    max-width: 100%;
+  }
+  .sec-line-pro-block {
+    max-width: 100%;
+  }
+  .pro-title {
+    font-size: 1.8rem;
+  }
+  .pro-descr {
+    font-size: 0.9rem;
+    line-height: 25px;
+  }
+  
+  .second-condit-descr {
+    max-width: 180px;
+  }
+  .pricing-table {
+    overflow-x: scroll !important;
+  }
+  .price-table-container {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .education-nuances-start-educbtn {
+    flex-direction: column;
+    gap: 40px 0;
+    padding: 70px 50px;
+  }
+  .educ-nuance-descr {
+    text-align: center;
+    line-height: 25px;
+    max-width: 580px;
+    width: 100%;
+    font-size: 1.0625rem;
+  }
+  .start-education-button {
+    max-width: 310px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px 0;
+  }
+  .foot-social-media {
+    justify-content: center;
+  }
+  .about-the-site {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px 0;
+    text-align: center;
+  }
+  .foot-contacts {
+    flex-direction: column;
+    gap: 40px 0;
+  }
+  .footerline {
+    max-width: 100%;
+    width: 100%;
+  }
+  .footer-last-line {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0;
+  }
+  .userpolicies {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0;
+  }
+  .terms-of-use {
+    color: $orange;
+  }
+  .privacy-policy {
+    color: $orange;
+  }
+  .modal-window{
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 700px) {
+  .nav {
+    width: 60%;
+  }
+}
+@media (max-width: 670px) {
+  .big-title {
+    font-size: 2.18rem;
+    line-height: 40px;
+  }
+  .play-btn-svg {
+    max-width: 100px !important;
+    width: 100%;
+  }
+  .play-btn-title {
+    font-size: 1rem;
+  }
+  .modal-window {
+    padding: 30px 20px;
+  }
+  .modal-info-descr-text {
+    font-size: 0.9rem;
+  }
+  .answer-options-and-submit{
+    flex-direction: column;
+    align-items: start;
+    gap: 20px 0;
+}
+.answer-submit-btn{
+    margin: 0 0 0 auto;
+}
+}
+@media (max-width: 620px) {
+  
+}
+@media (max-width: 580px) {
+  .to-block-title {
+    font-size: 1.8rem;
+  }
+  .nav {
+    width: 70%;
+  }
+  .start-btn-descr {
+    font-size: 0.8rem;
+  }
+  .start-learn-button {
+    padding: 20px 10px;
+  }
+  .pros-info{
+    height: auto;
+    padding: 40px 30px;
+  }
+  .condition {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .modal-title {
+    font-size: 1.2rem;
+  }
+  
+  
+}
+@media (max-width: 550px) {
+    
+    .to-result-descr{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 520px) {
+  .to-block-title {
+    font-size: 1.6rem;
+  }
+  .technology {
+    font-size: 0.9rem;
+    padding: 20px;
+  }
+  .to-learning-block-descr {
+    font-size: 0.8rem;
+  }
+  .start-learn-button {
+    font-size: 0.8rem;
+  }
+  .pro-title{
+    font-size: 1.5rem;
+  }
+  .pro-descr{
+    font-size: 0.85rem;
+  }
+  .top-right-arrow-svg {
+    max-width: 12px !important;
+  }
+  .modal-title{
+    font-size: 1rem;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .nav {
+    width: 80%;
+  }
+  .first-display {
+    height: 1130px !important;
+  }
+  .info-about-school {
+    height: 100%;
+  }
+  .video-play-elements {
+    gap: 10px;
+    line-height: 10px;
+    top: 46%;
+  }
+  .play-btn-svg {
+    max-width: 80px !important;
+    width: 100%;
+  }
+  .play-btn-title {
+    font-size: 0.8rem;
+  }
+  .start-btn-descr {
+    font-size: 0.7rem;
+  }
+  .technologies {
+    gap: 10px 0;
+  }
+  .techno-line {
+    gap: 0 10px;
+  }
+  .pros-illustr{
+    padding: 20px 30px;
+  }
+  .option-title{
+    font-size: 0.7rem;
+  }
+  .to-result-descr{
+    font-size: 0.9rem;
+  }
+  
+}
+@media (max-width: 450px) {
+  .first-display {
+    height: 1100px !important;
+  }
+  .big-title {
+    font-size: 1.8rem;
+  }
+  .to-test-descr {
+    font-size: 0.9rem;
+  }
+  .technologies-container {
+    padding: 2rem;
+  }
+  .technology {
+    font-size: 0.75rem;
+    padding: 20px 15px;
+  }
+  .finish-test-btn{
+    font-size: 0.9rem;
+    height: 60px;
+  }
+  .start-learn-container{
+    flex-direction: column;
+    gap: 20px 0;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  .start-btn-descr{
+    text-align: center;
+  }
+  
+}
+@media (max-width: 420px) {
+  .first-display {
+    height: 1040px !important;
+  }
+}
+@media (max-width: 380px) {
+  .first-display {
+    height: 970px !important;
+  }
+  .to-block-title {
+    font-size: 1.3rem;
+  }
+  .nav {
+    width: 90%;
+  }
+  .menu-list-item .menu-list-link {
+    font-size: 1.1rem;
+  }
+  .big-title {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+
+  .video-play-elements {
+    line-height: 0px;
+  }
+  .play-btn-svg {
+    max-width: 70px !important;
+    width: 100%;
+  }
+  
+  .technologies-container {
+    padding: 1.5rem;
+  }
+  .technologies {
+    gap: 5px 0;
+  }
+  .techno-line {
+    gap: 0 5px;
+  }
+  .technology {
+    padding: 15px 10px;
+  }
+  .to-learning-block-descr{
+    font-size: 0.7rem;
+  }
+  .lp-descr-title{
+    font-size: 1.1rem;
+  }
+  .lp-descr-descr{
+    font-size: 0.9rem;
+  }
+  .option{
+    gap: 0 5px;
+  }
+  .option-title{
+    font-size: 0.6rem;
+  }
+  .modal-start-button{
+    max-width: 150px;
+    height: 60px;
+  }
+  .to-result-descr{
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 350px) {
+    .first-display-container{
+        padding: 20px 10px;
+    }
+    .which-technologies-learn{
+        padding: 0 10px;
+    }
+    .features{
+        padding: 0 10px;
+    }
+    .learning-process{
+        padding: 10rem 10px 10rem 10px !important;
+    }
+    .some-our-pros{
+        padding: 0 10px;
+    }
+    .pros-illustr{
+      padding: 10px 20px;
+    }
+    .option-title{
+        font-size: 0.5rem;
+    }
+}
+@media (max-width: 320px) {
+  .first-display {
+    height: 880px !important;
+  }
+  .to-block-title {
+    font-size: 1rem;
+  }
+  .nav {
+    padding: 70px 30px 30px 30px;
+  }
+  .menu {
+    gap: 20px 0;
+  }
+
+  .big-title {
+    font-size: 1.2rem;
+    line-height: 25px;
+  }
+  .start-test-btn {
+    height: 70px;
+  }
+  .play-btn-svg {
+    max-width: 50px !important;
+    width: 100%;
+  }
+  .play-btn-title {
+    font-size: 0.7rem;
+  }
+  .technologies-container {
+    padding: 1rem;
+  }
+  .pros-illustr{
+    height: auto;
+    padding: 30px 20px;
+  }
+  .to-learning-block-descr{
+    font-size: 0.8rem;
+  }
+}
+
+//   Burger Menu Active Styles
