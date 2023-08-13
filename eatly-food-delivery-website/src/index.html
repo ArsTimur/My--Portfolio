@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Food Delivery</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu__container">
+        <div class="nav__logo">
+          <svg
+            class="logo-svg"
+            width="112"
+            height="43"
+            viewBox="0 0 112 43"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="3.67383"
+              y="4.97852"
+              width="42.2674"
+              height="37.3367"
+              rx="6.96951"
+              fill="#6C5FBC"
+            />
+            <rect
+              x="1.0075"
+              y="1.0075"
+              width="40.2524"
+              height="35.3217"
+              rx="5.96201"
+              fill="#DBD9EE"
+              stroke="#6C5FBC"
+              stroke-width="2.01499"
+            />
+            <path
+              d="M32.624 12.0518L9.72243 11.9505"
+              stroke="#6C5FBC"
+              stroke-width="2.08432"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M32.6096 16.6368L27.5162 16.6142C25.4095 16.6049 23.7056 14.5428 23.7133 12.0119C23.7211 9.48095 25.4376 7.43398 27.5443 7.4433L32.6377 7.46582"
+              stroke="#6C5FBC"
+              stroke-width="2.08432"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M17.3611 26.7221L10.7067 26.648C10.1614 26.6456 9.70458 26.1076 9.6942 25.4525L9.64992 23.7254C9.63962 23.0405 10.0999 22.462 10.6699 22.4645L17.25 22.5383L17.3611 26.7221Z"
+              stroke="#6C5FBC"
+              stroke-width="2.08432"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M27.8134 29.2108L18.4076 29.0948C17.8624 29.0924 17.4055 28.5544 17.3951 27.8993L17.2752 22.5242L32.555 22.7108L32.5653 23.3957C32.6421 26.6417 30.5025 29.2525 27.8134 29.2108Z"
+              stroke="#6C5FBC"
+              stroke-width="2.08432"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M69.3081 21.6458C69.3081 22.0693 69.2798 22.4505 69.2234 22.7893H60.6472C60.7178 23.6363 61.0142 24.2999 61.5366 24.7798C62.0589 25.2598 62.7012 25.4998 63.4635 25.4998C64.5647 25.4998 65.3482 25.0269 65.8141 24.081H69.0116C68.6728 25.2104 68.0234 26.1421 67.0634 26.8762C66.1035 27.5962 64.9247 27.9562 63.5271 27.9562C62.3977 27.9562 61.3813 27.7092 60.4778 27.2151C59.5884 26.7068 58.8896 25.9939 58.3814 25.0763C57.8873 24.1587 57.6402 23.0999 57.6402 21.8999C57.6402 20.6859 57.8873 19.62 58.3814 18.7024C58.8755 17.7848 59.5672 17.0789 60.4566 16.5848C61.346 16.0907 62.3695 15.8437 63.5271 15.8437C64.6423 15.8437 65.6376 16.0836 66.5129 16.5636C67.4022 17.0436 68.0869 17.7283 68.5669 18.6177C69.061 19.4929 69.3081 20.5023 69.3081 21.6458ZM66.2376 20.7988C66.2235 20.0365 65.9482 19.4294 65.4117 18.9777C64.8753 18.5118 64.2188 18.2789 63.4424 18.2789C62.7083 18.2789 62.0871 18.5047 61.5789 18.9565C61.0848 19.3941 60.7813 20.0082 60.6683 20.7988H66.2376ZM70.7096 21.8576C70.7096 20.6717 70.9426 19.62 71.4084 18.7024C71.8884 17.7848 72.5308 17.0789 73.3354 16.5848C74.1542 16.0907 75.0648 15.8437 76.0671 15.8437C76.9424 15.8437 77.7047 16.0201 78.3541 16.373C79.0176 16.726 79.547 17.1707 79.9423 17.7071V16.0342H82.9281V27.7656H79.9423V26.0504C79.5611 26.601 79.0317 27.0598 78.3541 27.4268C77.6906 27.7797 76.9212 27.9562 76.0459 27.9562C75.0577 27.9562 74.1542 27.7021 73.3354 27.1939C72.5308 26.6857 71.8884 25.9727 71.4084 25.0551C70.9426 24.1234 70.7096 23.0575 70.7096 21.8576ZM79.9423 21.8999C79.9423 21.18 79.8011 20.5659 79.5188 20.0576C79.2364 19.5353 78.8553 19.14 78.3753 18.8718C77.8953 18.5894 77.38 18.4483 76.8294 18.4483C76.2789 18.4483 75.7707 18.5824 75.3048 18.8506C74.8389 19.1188 74.4578 19.5141 74.1613 20.0365C73.8789 20.5447 73.7378 21.1517 73.7378 21.8576C73.7378 22.5634 73.8789 23.1846 74.1613 23.721C74.4578 24.2434 74.8389 24.6457 75.3048 24.9281C75.7848 25.2104 76.293 25.3516 76.8294 25.3516C77.38 25.3516 77.8953 25.2175 78.3753 24.9492C78.8553 24.6669 79.2364 24.2716 79.5188 23.7634C79.8011 23.2411 79.9423 22.6199 79.9423 21.8999ZM89.2752 18.4695V24.1446C89.2752 24.5398 89.3669 24.8292 89.5505 25.0128C89.7481 25.1822 90.0728 25.2669 90.5246 25.2669H91.901V27.7656H90.0375C87.5388 27.7656 86.2894 26.5515 86.2894 24.1234V18.4695H84.8918V16.0342H86.2894V13.1332H89.2752V16.0342H91.901V18.4695H89.2752ZM96.9979 12.0955V27.7656H94.0333V12.0955H96.9979ZM111.15 16.0342L103.887 33.3137H100.732L103.273 27.4692L98.5717 16.0342H101.896L104.924 24.2293L107.995 16.0342H111.15Z"
+              fill="#6C5FBC"
+            />
+          </svg>
+        </div>
+        <nav class="nav">
+          <ul class="menu">
+            <li class="menu__list">
+              <a href="menu.html" class="menu__link">Menu</a>
+            </li>
+            <li class="menu__list">
+              <a href="blog.html" class="menu__link">Blog</a>
+            </li>
+            <li class="menu__list">
+              <a href="pricing.html" class="menu__link">Pricing</a>
+            </li>
+            <li class="menu__list">
+              <a href="contact.html" class="menu__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="menu__sign__buttons">
+            <a href="login.html" class="sign__btn login-link">Login</a>
+            <a href="signup.html" class="sign__btn signup-link">Sign Up</a>
+          </div>
+        </nav>
+        <div class="burger-btn">
+          <svg
+            id="burger-svg"
+            width="34"
+            height="25"
+            viewBox="0 0 34 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M1.25 1H32.75Z" fill="#918F8F" />
+            <path
+              d="M1.25 1H32.75"
+              stroke="#282828"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path d="M1.25 12.1628H32.75Z" fill="#918F8F" />
+            <path
+              d="M1.25 12.1628H32.75"
+              stroke="#282828"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path d="M1.25 23.3257H32.75Z" fill="#918F8F" />
+            <path
+              d="M1.25 23.3257H32.75"
+              stroke="#282828"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+      </div>
+      <hr class="line-under-menu-cont" />
+    </header>
+
+    <div class="first__display">
+      <div class="first__display__paragraf">
+        <div class="user__num">
+          <hr class="before-users-line" />
+          <div class="users">OVER 1000 USERS</div>
+        </div>
+        <div class="big__title">
+          Enjoy Foods All Over The <span class="bigtit__lastwrd">World</span>
+        </div>
+        <div class="firstdisp__descr">
+          EatLy help you set saving goals, earn cash back offers, Go to
+          disclaimer for more details and get paychecks up to two days early.
+          Get a
+          <span class="firstdispdscr__lastwrd">$20 bonus.</span>
+        </div>
+        <div class="firstdisp__buttons">
+          <div class="fd__btn get__started">Get Started</div>
+          <div class="fd__btn go__pro">Go Pro</div>
+        </div>
+        <div class="rating__on__trustpilot">
+          <div class="trustpilot__logo">
+            <img
+              class="trust-pilot-svg"
+              src="assets/icons/trustpilotlogo.svg"
+              alt=""
+            />
+          </div>
+          <div class="rating__stars">
+            <img
+              class="rating-stars-svg"
+              src="assets/icons/ratingstars.svg"
+              alt=""
+            />
+            <div class="num__of__feedbacks">4900+</div>
+          </div>
+        </div>
+      </div>
+      <div class="first-disp-pic">
+        <img class="first-disp-img" src="/assets/images/Hero.png" alt="" />
+      </div>
+    </div>
+    <style>
+      .achievements {
+        background: url("assets/images/achievebg.png") no-repeat 100%;
+        width: 100%;
+        background-size: cover;
+      }
+      @media screen and (max-width: 768px) {
+        .achievements {
+          background: url("assets/images/achievemobilebg.jpg") !important;
+          background-size: 100%;
+          background-position: center;
+          width: 100%;
+        }
+      }
+    </style>
+    <div class="achievements">
+      <div class="achieves__block">
+        <div class="achieves">
+          <div class="num__of__achieve">10K+</div>
+          <div class="descr__to__achieve">
+            Satisfied Costumers <br />
+            All Great Over The World
+          </div>
+        </div>
+        <span class="delimiter__line"></span>
+        <div class="achieves">
+          <div class="num__of__achieve">4M</div>
+          <div class="descr__to__achieve">
+            Healthy Dishes Sold <br />
+            Including Milk Shakes Smooth
+          </div>
+        </div>
+        <span class="delimiter__line"></span>
+        <div class="achieves">
+          <div class="num__of__achieve">99.99%</div>
+          <div class="descr__to__achieve">
+            Reliable Customer Support <br />
+            We Provide Great Experiences
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="app-addv-container">
+      <div class="mobile__pic">
+        <img class="mobile-img" src="assets/images/Mobile.png" alt="" />
+      </div>
+      <div class="app__info__block">
+        <div class="to-block-title two-line-title to-app-addv-title">
+          Premium <span class="title-purple-word">Quality</span>
+          For Your Health
+        </div>
+        <div class="app__info__descr app__middle__descr">
+          <span class="bolddot"> • </span>
+          <div class="app__descr">
+            Premium quality food is made with ingredients that are packed with
+            essential vitamins, minerals.
+          </div>
+        </div>
+        <div class="app__info__descr">
+          <span class="bolddot"> • </span>
+          <div class="app__descr">
+            These foods promote overall wellness by support healthy digestion
+            and boosting immunity
+          </div>
+        </div>
+        <div class="button__and__arrow">
+          <div class="download__button">
+            <div class="download__button__text">Download</div>
+
+            <div class="onright__arrow">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 29 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.5003 0.166504L11.9741 2.69275L21.9716 12.7082H0.166992V16.2915H21.9716L11.9741 26.3069L14.5003 28.8332L28.8337 14.4998L14.5003 0.166504Z"
+                  fill="#ffffff"
+                  fill-opacity="0.95"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="arrow__to__button">
+            <img
+              class="arrow-to-button-img"
+              src="assets/images/arrowtobtn.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="after-block-line">
+      <hr class="line-after-block" />
+    </div>
+    <!-- Top Restaurants -====================== -->
+    <div class="our-restaurants-container">
+      <div class="to-block-title ta-center one-line-title">
+        Our Top <span class="title-purple-word">Restaurants</span>
+      </div>
+
+      <div class="restaurant__block chiken__rest">
+        <div class="top__restaurant">
+          <img src="assets/images/restaurantpic.png" alt="" />
+          <div class="rest__info">
+            <div class="restaurant__type type__styles">Healthy</div>
+            <div class="rest__title">The Chiken King</div>
+            <div class="last__info__line">
+              <div class="min__and__rate">
+                <div class="rest__minutes">24min •</div>
+                <div class="rest__stars">
+                  <img src="assets/icons/purplestar.svg" alt="" />
+                  <div class="rest__rating">4.8</div>
+                </div>
+              </div>
+              <div class="bookmark">
+                <svg
+                  class="bookmarksvg"
+                  width="41"
+                  height="41"
+                  viewBox="0 0 41 41"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    class="bookmark-circle"
+                    cx="20.1817"
+                    cy="20.2535"
+                    r="20.0426"
+                    fill="#DBD9EE"
+                  />
+                  <path
+                    class="bookmark-path"
+                    d="M24.5727 10.8853C21.6711 10.3989 18.6932 10.3989 15.7916 10.8853C14.7316 11.063 13.8874 11.8768 13.6748 12.932C12.7011 17.766 12.648 22.7403 13.5183 27.594L13.8726 29.5701C13.9818 30.1795 14.7246 30.423 15.1735 29.9966L19.4501 25.9338C19.8603 25.5441 20.504 25.5441 20.9142 25.9338L25.1909 29.9966C25.6397 30.423 26.3825 30.1795 26.4918 29.5701L26.8461 27.594C27.7163 22.7403 27.6632 17.766 26.6895 12.932C26.4769 11.8768 25.6327 11.063 24.5727 10.8853Z"
+                    fill="#6C5FBC"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top__restaurant">
+          <img src="assets/images/burgerrestpic.png" alt="" />
+          <div class="rest__info">
+            <div class="restaurant__type type__trending">Trending</div>
+            <div class="rest__title">The Burger King</div>
+            <div class="last__info__line">
+              <div class="min__and__rate">
+                <div class="rest__minutes">24min •</div>
+                <div class="rest__stars">
+                  <img src="assets/icons/purplestar.svg" alt="" />
+                  <div class="rest__rating">4.9</div>
+                </div>
+              </div>
+              <div class="bookmark">
+                <svg
+                  class="bookmarksvg"
+                  width="41"
+                  height="41"
+                  viewBox="0 0 41 41"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    class="bookmark-circle"
+                    cx="20.1817"
+                    cy="20.2535"
+                    r="20.0426"
+                    fill="#DBD9EE"
+                  />
+                  <path
+                    class="bookmark-path"
+                    d="M24.5727 10.8853C21.6711 10.3989 18.6932 10.3989 15.7916 10.8853C14.7316 11.063 13.8874 11.8768 13.6748 12.932C12.7011 17.766 12.648 22.7403 13.5183 27.594L13.8726 29.5701C13.9818 30.1795 14.7246 30.423 15.1735 29.9966L19.4501 25.9338C19.8603 25.5441 20.504 25.5441 20.9142 25.9338L25.1909 29.9966C25.6397 30.423 26.3825 30.1795 26.4918 29.5701L26.8461 27.594C27.7163 22.7403 27.6632 17.766 26.6895 12.932C26.4769 11.8768 25.6327 11.063 24.5727 10.8853Z"
+                    fill="#6C5FBC"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top__restaurant">
+          <img src="assets/images/restaurantpic.png" alt="" />
+          <div class="rest__info">
+            <div class="restaurant__type type__styles">Healthy</div>
+            <div class="rest__title">The Chiken King</div>
+            <div class="last__info__line">
+              <div class="min__and__rate">
+                <div class="rest__minutes">24min •</div>
+                <div class="rest__stars">
+                  <img src="assets/icons/purplestar.svg" alt="" />
+                  <div class="rest__rating">4.8</div>
+                </div>
+              </div>
+              <div class="bookmark">
+                <svg
+                  class="bookmarksvg"
+                  width="41"
+                  height="41"
+                  viewBox="0 0 41 41"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    class="bookmark-circle"
+                    cx="20.1817"
+                    cy="20.2535"
+                    r="20.0426"
+                    fill="#DBD9EE"
+                  />
+                  <path
+                    class="bookmark-path"
+                    d="M24.5727 10.8853C21.6711 10.3989 18.6932 10.3989 15.7916 10.8853C14.7316 11.063 13.8874 11.8768 13.6748 12.932C12.7011 17.766 12.648 22.7403 13.5183 27.594L13.8726 29.5701C13.9818 30.1795 14.7246 30.423 15.1735 29.9966L19.4501 25.9338C19.8603 25.5441 20.504 25.5441 20.9142 25.9338L25.1909 29.9966C25.6397 30.423 26.3825 30.1795 26.4918 29.5701L26.8461 27.594C27.7163 22.7403 27.6632 17.766 26.6895 12.932C26.4769 11.8768 25.6327 11.063 24.5727 10.8853Z"
+                    fill="#6C5FBC"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="top__restaurant hided__rest">
+          <img src="assets/images/restaurantpic.png" alt="" />
+          <div class="rest__info">
+            <div class="restaurant__type type__styles">Healthy</div>
+            <div class="rest__title">The Chiken King</div>
+            <div class="last__info__line">
+              <div class="min__and__rate">
+                <div class="rest__minutes">24min •</div>
+                <div class="rest__stars">
+                  <img src="assets/icons/purplestar.svg" alt="" />
+                  <div class="rest__rating">4.8</div>
+                </div>
+              </div>
+              <div class="bookmark">
+                <svg
+                  class="bookmarksvg"
+                  width="41"
+                  height="41"
+                  viewBox="0 0 41 41"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    class="bookmark-circle"
+                    cx="20.1817"
+                    cy="20.2535"
+                    r="20.0426"
+                    fill="#DBD9EE"
+                  />
+                  <path
+                    class="bookmark-path"
+                    d="M24.5727 10.8853C21.6711 10.3989 18.6932 10.3989 15.7916 10.8853C14.7316 11.063 13.8874 11.8768 13.6748 12.932C12.7011 17.766 12.648 22.7403 13.5183 27.594L13.8726 29.5701C13.9818 30.1795 14.7246 30.423 15.1735 29.9966L19.4501 25.9338C19.8603 25.5441 20.504 25.5441 20.9142 25.9338L25.1909 29.9966C25.6397 30.423 26.3825 30.1795 26.4918 29.5701L26.8461 27.594C27.7163 22.7403 27.6632 17.766 26.6895 12.932C26.4769 11.8768 25.6327 11.063 24.5727 10.8853Z"
+                    fill="#6C5FBC"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top__restaurant hided__rest">
+          <img src="assets/images/restaurantpic.png" alt="" />
+          <div class="rest__info">
+            <div class="restaurant__type type__styles">Healthy</div>
+            <div class="rest__title">The Chiken King</div>
+            <div class="last__info__line">
+              <div class="min__and__rate">
+                <div class="rest__minutes">24min •</div>
+                <div class="rest__stars">
+                  <img src="assets/icons/purplestar.svg" alt="" />
+                  <div class="rest__rating">4.8</div>
+                </div>
+              </div>
+              <div class="bookmark">
+                <svg
+                  class="bookmarksvg"
+                  width="41"
+                  height="41"
+                  viewBox="0 0 41 41"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    class="bookmark-circle"
+                    cx="20.1817"
+                    cy="20.2535"
+                    r="20.0426"
+                    fill="#DBD9EE"
+                  />
+                  <path
+                    class="bookmark-path"
+                    d="M24.5727 10.8853C21.6711 10.3989 18.6932 10.3989 15.7916 10.8853C14.7316 11.063 13.8874 11.8768 13.6748 12.932C12.7011 17.766 12.648 22.7403 13.5183 27.594L13.8726 29.5701C13.9818 30.1795 14.7246 30.423 15.1735 29.9966L19.4501 25.9338C19.8603 25.5441 20.504 25.5441 20.9142 25.9338L25.1909 29.9966C25.6397 30.423 26.3825 30.1795 26.4918 29.5701L26.8461 27.594C27.7163 22.7403 27.6632 17.766 26.6895 12.932C26.4769 11.8768 25.6327 11.063 24.5727 10.8853Z"
+                    fill="#6C5FBC"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="view-all">
+        <div class="view-all-btn view__all__rests">
+          View All
+          <div class="view__all__rightarrow">
+            <svg
+              width="17"
+              height="17"
+              viewBox="0 0 29 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.5003 0.166504L11.9741 2.69275L21.9716 12.7082H0.166992V16.2915H21.9716L11.9741 26.3069L14.5003 28.8332L28.8337 14.4998L14.5003 0.166504Z"
+                fill="#ACADB9"
+                fill-opacity="0.95"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="hide__styles">
+        <div class="hide__rests">
+          Hide
+          <div class="hide__left__arrow">
+            <svg
+              width="17"
+              height="17"
+              viewBox="0 0 29 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.5003 0.166504L11.9741 2.69275L21.9716 12.7082H0.166992V16.2915H21.9716L11.9741 26.3069L14.5003 28.8332L28.8337 14.4998L14.5003 0.166504Z"
+                fill="#ACADB9"
+                fill-opacity="0.95"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="after-block-line">
+      <hr class="line-after-block" />
+    </div>
+
+    <!-- Top Dishes -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=d -->
+    <section class="top-dishes">
+      <div class="to-block-title ta-center one-line-title">
+        Our Top <span class="title-purple-word">Dishes</span>
+      </div>
+      <div class="top__dishes__container">
+        <div class="dish">
+          <div class="heart__svg">
+            <svg
+              class="heart"
+              width="22"
+              height="20"
+              viewBox="0 0 22 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="heart-path"
+                d="M11 19L9.55 17.7052C4.4 13.1243 1 10.103 1 6.3951C1 3.37384 3.42 1 6.5 1C8.24 1 9.91 1.79455 11 3.05014C12.09 1.79455 13.76 1 15.5 1C18.58 1 21 3.37384 21 6.3951C21 10.103 17.6 13.1243 12.45 17.715L11 19Z"
+                stroke-width="1.7"
+                stroke="#323142"
+              />
+            </svg>
+          </div>
+          <img
+            class="chikenhelldish__pic"
+            src="assets/images/chikenhellpic.png"
+            alt=""
+          />
+          <div class="dish__type type__styles">Healthy</div>
+          <div class="dish__title">Chiken Hell</div>
+          <div class="min__and__rate">
+            <div class="dish__minutes">24min •</div>
+            <div class="dish__stars">
+              <img src="assets/icons/purplestar.svg" alt="" />
+              <div class="dish__rating">4.8</div>
+            </div>
+          </div>
+          <div class="dish__price__and__add">
+            <div class="dish__price">
+              $12<span class="price__lastwrd">.99</span>
+            </div>
+            <div class="delete__basket__btn">-</div>
+            <span class="basket__quantity"></span>
+            <div class="add__dish">
+              <svg
+                class="plussvg"
+                width="45"
+                height="41"
+                viewBox="0 0 45 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  class="plus-svgs-bg"
+                  x="0.404297"
+                  y="0.28418"
+                  width="43.8299"
+                  height="39.7208"
+                  rx="8.93034"
+                  fill="#323142"
+                />
+                <mask id="path-2-inside-1_1_16676" fill="white">
+                  <path
+                    d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  />
+                </mask>
+                <path
+                  d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  fill="black"
+                />
+                <path
+                  d="M29.2818 21.3603V25.4693H33.3908V21.3603H29.2818ZM22.9422 21.3603V17.2512H18.8332V21.3603H22.9422ZM22.9422 27.7891V31.8982H27.0513V27.7891H22.9422ZM20.4123 27.7891H16.3033V31.8982H20.4123V27.7891ZM20.4123 21.3603H24.5214V17.2512H20.4123V21.3603ZM14.1025 21.3603H9.99349V25.4693H14.1025V21.3603ZM14.1025 19.0685V14.9594H9.99349V19.0685H14.1025ZM20.4123 19.0685V23.1775H24.5214V19.0685H20.4123ZM20.4123 12.6099V8.50081H16.3033V12.6099H20.4123ZM22.9422 12.6099H27.0513V8.50081H22.9422V12.6099ZM22.9422 19.0685H18.8332V23.1775H22.9422V19.0685ZM29.2818 19.0685H33.3908V14.9594H29.2818V19.0685ZM29.2818 17.2512H22.9422V25.4693H29.2818V17.2512ZM18.8332 21.3603V27.7891H27.0513V21.3603H18.8332ZM22.9422 23.6801H20.4123V31.8982H22.9422V23.6801ZM24.5214 27.7891V21.3603H16.3033V27.7891H24.5214ZM20.4123 17.2512H14.1025V25.4693H20.4123V17.2512ZM18.2116 21.3603V19.0685H9.99349V21.3603H18.2116ZM14.1025 23.1775H20.4123V14.9594H14.1025V23.1775ZM24.5214 19.0685V12.6099H16.3033V19.0685H24.5214ZM20.4123 16.7189H22.9422V8.50081H20.4123V16.7189ZM18.8332 12.6099V19.0685H27.0513V12.6099H18.8332ZM22.9422 23.1775H29.2818V14.9594H22.9422V23.1775ZM25.1727 19.0685V21.3603H33.3908V19.0685H25.1727Z"
+                  fill="white"
+                  mask="url(#path-2-inside-1_1_16676)"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="dish">
+          <div class="heart__svg">
+            <svg
+              class="heart"
+              width="22"
+              height="20"
+              viewBox="0 0 22 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="heart-path"
+                d="M11 19L9.55 17.7052C4.4 13.1243 1 10.103 1 6.3951C1 3.37384 3.42 1 6.5 1C8.24 1 9.91 1.79455 11 3.05014C12.09 1.79455 13.76 1 15.5 1C18.58 1 21 3.37384 21 6.3951C21 10.103 17.6 13.1243 12.45 17.715L11 19Z"
+                stroke-width="1.7"
+                stroke="#323142"
+              />
+            </svg>
+          </div>
+          <img class="swedish__pic" src="assets/images/swedishpic.png" alt="" />
+          <div class="dish__type type__trending">Trending</div>
+          <div class="dish__title">Swe Dish</div>
+          <div class="min__and__rate">
+            <div class="dish__minutes">34min •</div>
+            <div class="dish__stars">
+              <img src="assets/icons/purplestar.svg" alt="" />
+              <div class="dish__rating">4.9</div>
+            </div>
+          </div>
+          <div class="dish__price__and__add">
+            <div class="dish__price">
+              $19<span class="price__lastwrd">.99</span>
+            </div>
+            <div class="delete__basket__btn">-</div>
+            <span class="basket__quantity"></span>
+            <div class="add__dish">
+              <svg
+                class="plussvg"
+                width="45"
+                height="41"
+                viewBox="0 0 45 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  class="plus-svgs-bg"
+                  x="0.404297"
+                  y="0.28418"
+                  width="43.8299"
+                  height="39.7208"
+                  rx="8.93034"
+                  fill="#323142"
+                />
+                <mask id="path-2-inside-1_1_16676" fill="white">
+                  <path
+                    d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  />
+                </mask>
+                <path
+                  d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  fill="black"
+                />
+                <path
+                  d="M29.2818 21.3603V25.4693H33.3908V21.3603H29.2818ZM22.9422 21.3603V17.2512H18.8332V21.3603H22.9422ZM22.9422 27.7891V31.8982H27.0513V27.7891H22.9422ZM20.4123 27.7891H16.3033V31.8982H20.4123V27.7891ZM20.4123 21.3603H24.5214V17.2512H20.4123V21.3603ZM14.1025 21.3603H9.99349V25.4693H14.1025V21.3603ZM14.1025 19.0685V14.9594H9.99349V19.0685H14.1025ZM20.4123 19.0685V23.1775H24.5214V19.0685H20.4123ZM20.4123 12.6099V8.50081H16.3033V12.6099H20.4123ZM22.9422 12.6099H27.0513V8.50081H22.9422V12.6099ZM22.9422 19.0685H18.8332V23.1775H22.9422V19.0685ZM29.2818 19.0685H33.3908V14.9594H29.2818V19.0685ZM29.2818 17.2512H22.9422V25.4693H29.2818V17.2512ZM18.8332 21.3603V27.7891H27.0513V21.3603H18.8332ZM22.9422 23.6801H20.4123V31.8982H22.9422V23.6801ZM24.5214 27.7891V21.3603H16.3033V27.7891H24.5214ZM20.4123 17.2512H14.1025V25.4693H20.4123V17.2512ZM18.2116 21.3603V19.0685H9.99349V21.3603H18.2116ZM14.1025 23.1775H20.4123V14.9594H14.1025V23.1775ZM24.5214 19.0685V12.6099H16.3033V19.0685H24.5214ZM20.4123 16.7189H22.9422V8.50081H20.4123V16.7189ZM18.8332 12.6099V19.0685H27.0513V12.6099H18.8332ZM22.9422 23.1775H29.2818V14.9594H22.9422V23.1775ZM25.1727 19.0685V21.3603H33.3908V19.0685H25.1727Z"
+                  fill="white"
+                  mask="url(#path-2-inside-1_1_16676)"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="dish">
+          <div class="heart__svg">
+            <svg
+              class="heart"
+              width="22"
+              height="20"
+              viewBox="0 0 22 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="heart-path"
+                d="M11 19L9.55 17.7052C4.4 13.1243 1 10.103 1 6.3951C1 3.37384 3.42 1 6.5 1C8.24 1 9.91 1.79455 11 3.05014C12.09 1.79455 13.76 1 15.5 1C18.58 1 21 3.37384 21 6.3951C21 10.103 17.6 13.1243 12.45 17.715L11 19Z"
+                stroke-width="1.7"
+                stroke="#323142"
+              />
+            </svg>
+          </div>
+          <img
+            class="swedish__supreme__pic"
+            src="assets/images/swedishsupreme.png"
+            alt=""
+          />
+          <div class="dish__type type__supreme">Supreme</div>
+          <div class="dish__title">Swe Dish</div>
+          <div class="min__and__rate">
+            <div class="dish__minutes">34min •</div>
+            <div class="dish__stars">
+              <img src="assets/icons/purplestar.svg" alt="" />
+              <div class="dish__rating">4.9</div>
+            </div>
+          </div>
+          <div class="dish__price__and__add">
+            <div class="dish__price">
+              $19<span class="price__lastwrd">.99</span>
+            </div>
+            <div class="delete__basket__btn">-</div>
+            <span class="basket__quantity"></span>
+            <div class="add__dish">
+              <svg
+                class="plussvg"
+                width="45"
+                height="41"
+                viewBox="0 0 45 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  class="plus-svgs-bg"
+                  x="0.404297"
+                  y="0.28418"
+                  width="43.8299"
+                  height="39.7208"
+                  rx="8.93034"
+                  fill="#323142"
+                />
+                <mask id="path-2-inside-1_1_16676" fill="white">
+                  <path
+                    d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  />
+                </mask>
+                <path
+                  d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  fill="black"
+                />
+                <path
+                  d="M29.2818 21.3603V25.4693H33.3908V21.3603H29.2818ZM22.9422 21.3603V17.2512H18.8332V21.3603H22.9422ZM22.9422 27.7891V31.8982H27.0513V27.7891H22.9422ZM20.4123 27.7891H16.3033V31.8982H20.4123V27.7891ZM20.4123 21.3603H24.5214V17.2512H20.4123V21.3603ZM14.1025 21.3603H9.99349V25.4693H14.1025V21.3603ZM14.1025 19.0685V14.9594H9.99349V19.0685H14.1025ZM20.4123 19.0685V23.1775H24.5214V19.0685H20.4123ZM20.4123 12.6099V8.50081H16.3033V12.6099H20.4123ZM22.9422 12.6099H27.0513V8.50081H22.9422V12.6099ZM22.9422 19.0685H18.8332V23.1775H22.9422V19.0685ZM29.2818 19.0685H33.3908V14.9594H29.2818V19.0685ZM29.2818 17.2512H22.9422V25.4693H29.2818V17.2512ZM18.8332 21.3603V27.7891H27.0513V21.3603H18.8332ZM22.9422 23.6801H20.4123V31.8982H22.9422V23.6801ZM24.5214 27.7891V21.3603H16.3033V27.7891H24.5214ZM20.4123 17.2512H14.1025V25.4693H20.4123V17.2512ZM18.2116 21.3603V19.0685H9.99349V21.3603H18.2116ZM14.1025 23.1775H20.4123V14.9594H14.1025V23.1775ZM24.5214 19.0685V12.6099H16.3033V19.0685H24.5214ZM20.4123 16.7189H22.9422V8.50081H20.4123V16.7189ZM18.8332 12.6099V19.0685H27.0513V12.6099H18.8332ZM22.9422 23.1775H29.2818V14.9594H22.9422V23.1775ZM25.1727 19.0685V21.3603H33.3908V19.0685H25.1727Z"
+                  fill="white"
+                  mask="url(#path-2-inside-1_1_16676)"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="dish">
+          <div class="heart__svg">
+            <svg
+              class="heart"
+              width="22"
+              height="20"
+              viewBox="0 0 22 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="heart-path"
+                d="M11 19L9.55 17.7052C4.4 13.1243 1 10.103 1 6.3951C1 3.37384 3.42 1 6.5 1C8.24 1 9.91 1.79455 11 3.05014C12.09 1.79455 13.76 1 15.5 1C18.58 1 21 3.37384 21 6.3951C21 10.103 17.6 13.1243 12.45 17.715L11 19Z"
+                stroke-width="1.7"
+                stroke="#323142"
+              />
+            </svg>
+          </div>
+          <img
+            class="chikenhelldish__pic"
+            src="assets/images/chikenhellpic.png"
+            alt=""
+          />
+          <div class="dish__type type__styles">Healthy</div>
+          <div class="dish__title">Chiken Hell</div>
+          <div class="min__and__rate">
+            <div class="dish__minutes">24min •</div>
+            <div class="dish__stars">
+              <img src="assets/icons/purplestar.svg" alt="" />
+              <div class="dish__rating">4.8</div>
+            </div>
+          </div>
+          <div class="dish__price__and__add">
+            <div class="dish__price">
+              $12<span class="price__lastwrd">.99</span>
+            </div>
+            <div class="delete__basket__btn">-</div>
+            <span class="basket__quantity"></span>
+            <div class="add__dish">
+              <svg
+                class="plussvg"
+                width="45"
+                height="41"
+                viewBox="0 0 45 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  class="plus-svgs-bg"
+                  x="0.404297"
+                  y="0.28418"
+                  width="43.8299"
+                  height="39.7208"
+                  rx="8.93034"
+                  fill="#323142"
+                />
+                <mask id="path-2-inside-1_1_16676" fill="white">
+                  <path
+                    d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  />
+                </mask>
+                <path
+                  d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  fill="black"
+                />
+                <path
+                  d="M29.2818 21.3603V25.4693H33.3908V21.3603H29.2818ZM22.9422 21.3603V17.2512H18.8332V21.3603H22.9422ZM22.9422 27.7891V31.8982H27.0513V27.7891H22.9422ZM20.4123 27.7891H16.3033V31.8982H20.4123V27.7891ZM20.4123 21.3603H24.5214V17.2512H20.4123V21.3603ZM14.1025 21.3603H9.99349V25.4693H14.1025V21.3603ZM14.1025 19.0685V14.9594H9.99349V19.0685H14.1025ZM20.4123 19.0685V23.1775H24.5214V19.0685H20.4123ZM20.4123 12.6099V8.50081H16.3033V12.6099H20.4123ZM22.9422 12.6099H27.0513V8.50081H22.9422V12.6099ZM22.9422 19.0685H18.8332V23.1775H22.9422V19.0685ZM29.2818 19.0685H33.3908V14.9594H29.2818V19.0685ZM29.2818 17.2512H22.9422V25.4693H29.2818V17.2512ZM18.8332 21.3603V27.7891H27.0513V21.3603H18.8332ZM22.9422 23.6801H20.4123V31.8982H22.9422V23.6801ZM24.5214 27.7891V21.3603H16.3033V27.7891H24.5214ZM20.4123 17.2512H14.1025V25.4693H20.4123V17.2512ZM18.2116 21.3603V19.0685H9.99349V21.3603H18.2116ZM14.1025 23.1775H20.4123V14.9594H14.1025V23.1775ZM24.5214 19.0685V12.6099H16.3033V19.0685H24.5214ZM20.4123 16.7189H22.9422V8.50081H20.4123V16.7189ZM18.8332 12.6099V19.0685H27.0513V12.6099H18.8332ZM22.9422 23.1775H29.2818V14.9594H22.9422V23.1775ZM25.1727 19.0685V21.3603H33.3908V19.0685H25.1727Z"
+                  fill="white"
+                  mask="url(#path-2-inside-1_1_16676)"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="dish">
+          <div class="heart__svg">
+            <svg
+              class="heart"
+              width="22"
+              height="20"
+              viewBox="0 0 22 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="heart-path"
+                d="M11 19L9.55 17.7052C4.4 13.1243 1 10.103 1 6.3951C1 3.37384 3.42 1 6.5 1C8.24 1 9.91 1.79455 11 3.05014C12.09 1.79455 13.76 1 15.5 1C18.58 1 21 3.37384 21 6.3951C21 10.103 17.6 13.1243 12.45 17.715L11 19Z"
+                stroke-width="1.7"
+                stroke="#323142"
+              />
+            </svg>
+          </div>
+          <img class="swedish__pic" src="assets/images/swedishpic.png" alt="" />
+          <div class="dish__type type__trending">Trending</div>
+          <div class="dish__title">Swe Dish</div>
+          <div class="min__and__rate">
+            <div class="dish__minutes">34min •</div>
+            <div class="dish__stars">
+              <img src="assets/icons/purplestar.svg" alt="" />
+              <div class="dish__rating">4.9</div>
+            </div>
+          </div>
+          <div class="dish__price__and__add">
+            <div class="dish__price">
+              $19<span class="price__lastwrd">.99</span>
+            </div>
+            <div class="delete__basket__btn">-</div>
+            <span class="basket__quantity"></span>
+            <div class="add__dish">
+              <svg
+                class="plussvg"
+                width="45"
+                height="41"
+                viewBox="0 0 45 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  class="plus-svgs-bg"
+                  x="0.404297"
+                  y="0.28418"
+                  width="43.8299"
+                  height="39.7208"
+                  rx="8.93034"
+                  fill="#323142"
+                />
+                <mask id="path-2-inside-1_1_16676" fill="white">
+                  <path
+                    d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  />
+                </mask>
+                <path
+                  d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  fill="black"
+                />
+                <path
+                  d="M29.2818 21.3603V25.4693H33.3908V21.3603H29.2818ZM22.9422 21.3603V17.2512H18.8332V21.3603H22.9422ZM22.9422 27.7891V31.8982H27.0513V27.7891H22.9422ZM20.4123 27.7891H16.3033V31.8982H20.4123V27.7891ZM20.4123 21.3603H24.5214V17.2512H20.4123V21.3603ZM14.1025 21.3603H9.99349V25.4693H14.1025V21.3603ZM14.1025 19.0685V14.9594H9.99349V19.0685H14.1025ZM20.4123 19.0685V23.1775H24.5214V19.0685H20.4123ZM20.4123 12.6099V8.50081H16.3033V12.6099H20.4123ZM22.9422 12.6099H27.0513V8.50081H22.9422V12.6099ZM22.9422 19.0685H18.8332V23.1775H22.9422V19.0685ZM29.2818 19.0685H33.3908V14.9594H29.2818V19.0685ZM29.2818 17.2512H22.9422V25.4693H29.2818V17.2512ZM18.8332 21.3603V27.7891H27.0513V21.3603H18.8332ZM22.9422 23.6801H20.4123V31.8982H22.9422V23.6801ZM24.5214 27.7891V21.3603H16.3033V27.7891H24.5214ZM20.4123 17.2512H14.1025V25.4693H20.4123V17.2512ZM18.2116 21.3603V19.0685H9.99349V21.3603H18.2116ZM14.1025 23.1775H20.4123V14.9594H14.1025V23.1775ZM24.5214 19.0685V12.6099H16.3033V19.0685H24.5214ZM20.4123 16.7189H22.9422V8.50081H20.4123V16.7189ZM18.8332 12.6099V19.0685H27.0513V12.6099H18.8332ZM22.9422 23.1775H29.2818V14.9594H22.9422V23.1775ZM25.1727 19.0685V21.3603H33.3908V19.0685H25.1727Z"
+                  fill="white"
+                  mask="url(#path-2-inside-1_1_16676)"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hided Dishes -->
+
+        <div class="dish hided__dish">
+          <div class="heart__svg">
+            <svg
+              class="heart"
+              width="22"
+              height="20"
+              viewBox="0 0 22 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="heart-path"
+                d="M11 19L9.55 17.7052C4.4 13.1243 1 10.103 1 6.3951C1 3.37384 3.42 1 6.5 1C8.24 1 9.91 1.79455 11 3.05014C12.09 1.79455 13.76 1 15.5 1C18.58 1 21 3.37384 21 6.3951C21 10.103 17.6 13.1243 12.45 17.715L11 19Z"
+                stroke-width="1.7"
+                stroke="#323142"
+              />
+            </svg>
+          </div>
+          <img
+            class="swedish__pic"
+            src="assets/images/chikenhellpic.png"
+            alt=""
+          />
+          <div class="dish__type type__styles">Healthy</div>
+          <div class="dish__title">Chiken Hell</div>
+          <div class="min__and__rate">
+            <div class="dish__minutes">24min •</div>
+            <div class="dish__stars">
+              <img src="assets/icons/purplestar.svg" alt="" />
+              <div class="dish__rating">4.8</div>
+            </div>
+          </div>
+          <div class="dish__price__and__add">
+            <div class="dish__price">
+              $12<span class="price__lastwrd">.99</span>
+            </div>
+            <div class="delete__basket__btn">-</div>
+            <span class="basket__quantity"></span>
+            <div class="add__dish">
+              <svg
+                class="plussvg"
+                width="45"
+                height="41"
+                viewBox="0 0 45 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  class="plus-svgs-bg"
+                  x="0.404297"
+                  y="0.28418"
+                  width="43.8299"
+                  height="39.7208"
+                  rx="8.93034"
+                  fill="#323142"
+                />
+                <mask id="path-2-inside-1_1_16676" fill="white">
+                  <path
+                    d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  />
+                </mask>
+                <path
+                  d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  fill="black"
+                />
+                <path
+                  d="M29.2818 21.3603V25.4693H33.3908V21.3603H29.2818ZM22.9422 21.3603V17.2512H18.8332V21.3603H22.9422ZM22.9422 27.7891V31.8982H27.0513V27.7891H22.9422ZM20.4123 27.7891H16.3033V31.8982H20.4123V27.7891ZM20.4123 21.3603H24.5214V17.2512H20.4123V21.3603ZM14.1025 21.3603H9.99349V25.4693H14.1025V21.3603ZM14.1025 19.0685V14.9594H9.99349V19.0685H14.1025ZM20.4123 19.0685V23.1775H24.5214V19.0685H20.4123ZM20.4123 12.6099V8.50081H16.3033V12.6099H20.4123ZM22.9422 12.6099H27.0513V8.50081H22.9422V12.6099ZM22.9422 19.0685H18.8332V23.1775H22.9422V19.0685ZM29.2818 19.0685H33.3908V14.9594H29.2818V19.0685ZM29.2818 17.2512H22.9422V25.4693H29.2818V17.2512ZM18.8332 21.3603V27.7891H27.0513V21.3603H18.8332ZM22.9422 23.6801H20.4123V31.8982H22.9422V23.6801ZM24.5214 27.7891V21.3603H16.3033V27.7891H24.5214ZM20.4123 17.2512H14.1025V25.4693H20.4123V17.2512ZM18.2116 21.3603V19.0685H9.99349V21.3603H18.2116ZM14.1025 23.1775H20.4123V14.9594H14.1025V23.1775ZM24.5214 19.0685V12.6099H16.3033V19.0685H24.5214ZM20.4123 16.7189H22.9422V8.50081H20.4123V16.7189ZM18.8332 12.6099V19.0685H27.0513V12.6099H18.8332ZM22.9422 23.1775H29.2818V14.9594H22.9422V23.1775ZM25.1727 19.0685V21.3603H33.3908V19.0685H25.1727Z"
+                  fill="white"
+                  mask="url(#path-2-inside-1_1_16676)"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- ---- -->
+        <div class="dish hided__dish">
+          <div class="heart__svg">
+            <svg
+              class="heart"
+              width="22"
+              height="20"
+              viewBox="0 0 22 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="heart-path"
+                d="M11 19L9.55 17.7052C4.4 13.1243 1 10.103 1 6.3951C1 3.37384 3.42 1 6.5 1C8.24 1 9.91 1.79455 11 3.05014C12.09 1.79455 13.76 1 15.5 1C18.58 1 21 3.37384 21 6.3951C21 10.103 17.6 13.1243 12.45 17.715L11 19Z"
+                stroke-width="1.7"
+                stroke="#323142"
+              />
+            </svg>
+          </div>
+          <img class="swedish__pic" src="assets/images/swedishpic.png" alt="" />
+          <div class="dish__type type__trending">Trending</div>
+          <div class="dish__title">Swe Dish</div>
+          <div class="min__and__rate">
+            <div class="dish__minutes">34min •</div>
+            <div class="dish__stars">
+              <img src="assets/icons/purplestar.svg" alt="" />
+              <div class="dish__rating">4.9</div>
+            </div>
+          </div>
+          <div class="dish__price__and__add">
+            <div class="dish__price">
+              $19<span class="price__lastwrd">.99</span>
+            </div>
+            <div class="delete__basket__btn">-</div>
+            <span class="basket__quantity"></span>
+            <div class="add__dish">
+              <svg
+                class="plussvg"
+                width="45"
+                height="41"
+                viewBox="0 0 45 41"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  class="plus-svgs-bg"
+                  x="0.404297"
+                  y="0.28418"
+                  width="43.8299"
+                  height="39.7208"
+                  rx="8.93034"
+                  fill="#323142"
+                />
+                <mask id="path-2-inside-1_1_16676" fill="white">
+                  <path
+                    d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  />
+                </mask>
+                <path
+                  d="M29.2818 21.3603H22.9422V27.7891H20.4123V21.3603H14.1025V19.0685H20.4123V12.6099H22.9422V19.0685H29.2818V21.3603Z"
+                  fill="black"
+                />
+                <path
+                  d="M29.2818 21.3603V25.4693H33.3908V21.3603H29.2818ZM22.9422 21.3603V17.2512H18.8332V21.3603H22.9422ZM22.9422 27.7891V31.8982H27.0513V27.7891H22.9422ZM20.4123 27.7891H16.3033V31.8982H20.4123V27.7891ZM20.4123 21.3603H24.5214V17.2512H20.4123V21.3603ZM14.1025 21.3603H9.99349V25.4693H14.1025V21.3603ZM14.1025 19.0685V14.9594H9.99349V19.0685H14.1025ZM20.4123 19.0685V23.1775H24.5214V19.0685H20.4123ZM20.4123 12.6099V8.50081H16.3033V12.6099H20.4123ZM22.9422 12.6099H27.0513V8.50081H22.9422V12.6099ZM22.9422 19.0685H18.8332V23.1775H22.9422V19.0685ZM29.2818 19.0685H33.3908V14.9594H29.2818V19.0685ZM29.2818 17.2512H22.9422V25.4693H29.2818V17.2512ZM18.8332 21.3603V27.7891H27.0513V21.3603H18.8332ZM22.9422 23.6801H20.4123V31.8982H22.9422V23.6801ZM24.5214 27.7891V21.3603H16.3033V27.7891H24.5214ZM20.4123 17.2512H14.1025V25.4693H20.4123V17.2512ZM18.2116 21.3603V19.0685H9.99349V21.3603H18.2116ZM14.1025 23.1775H20.4123V14.9594H14.1025V23.1775ZM24.5214 19.0685V12.6099H16.3033V19.0685H24.5214ZM20.4123 16.7189H22.9422V8.50081H20.4123V16.7189ZM18.8332 12.6099V19.0685H27.0513V12.6099H18.8332ZM22.9422 23.1775H29.2818V14.9594H22.9422V23.1775ZM25.1727 19.0685V21.3603H33.3908V19.0685H25.1727Z"
+                  fill="white"
+                  mask="url(#path-2-inside-1_1_16676)"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="view-all">
+        <div class="view__all__dishes">
+          View All
+          <div class="view__all__rightarrow">
+            <svg
+              width="17"
+              height="17"
+              viewBox="0 0 29 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.5003 0.166504L11.9741 2.69275L21.9716 12.7082H0.166992V16.2915H21.9716L11.9741 26.3069L14.5003 28.8332L28.8337 14.4998L14.5003 0.166504Z"
+                fill="#ACADB9"
+                fill-opacity="0.95"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="hide__styles">
+        <div class="hide__dishes">
+          Hide
+          <div class="hide__left__arrow">
+            <svg
+              width="17"
+              height="17"
+              viewBox="0 0 29 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.5003 0.166504L11.9741 2.69275L21.9716 12.7082H0.166992V16.2915H21.9716L11.9741 26.3069L14.5003 28.8332L28.8337 14.4998L14.5003 0.166504Z"
+                fill="#ACADB9"
+                fill-opacity="0.95"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="after-block-line">
+      <hr class="line-after-block" />
+    </div>
+
+    <section class="control-dashboard">
+      <div class="dashboard__container">
+        <div class="to-block-title two-line-title to-dashboard-title">
+          Control <span class="title-purple-word"> Purchases</span>
+          Via Dashboard
+        </div>
+        <div class="orders">
+          <div class="order active__order">
+            <img
+              class="order-img"
+              src="assets/images/chikenhellmini.png"
+              alt=""
+            />
+            <div class="order__settings">
+              <div class="order__title">Chiken Hell</div>
+              <div class="order__info">On The Way</div>
+              <div class="order__time">3:09 PM</div>
+            </div>
+          </div>
+          <div class="order">
+            <img class="order-img" src="assets/images/swedishmini.png" alt="" />
+            <div class="order__settings">
+              <div class="order__title">Swe Dish</div>
+              <div class="order__info">Delivered</div>
+              <div class="order__time">Yesterday</div>
+            </div>
+          </div>
+          <div class="order">
+            <img
+              class="order-img"
+              src="assets/images/fishhellvegmini.png"
+              alt=""
+            />
+            <div class="order__settings">
+              <div class="order__title">Fish Hell Veg</div>
+              <div class="order__info cancelled__order">Cancelled</div>
+              <div class="order__time">Yesterday</div>
+            </div>
+          </div>
+          <div class="arrow-from-orders-to-dashboard">
+            <svg
+              width="39"
+              height="112"
+              viewBox="0 0 39 112"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.96429 0.661362C4.51321 0.500025 4.01674 0.734912 3.85541 1.18599C3.69407 1.63708 3.92896 2.13354 4.38004 2.29488L4.96429 0.661362ZM25.2567 23.7072L26.1171 23.5966L25.2567 23.7072ZM10.1877 48.9993L10.2057 48.1321L10.1877 48.9993ZM1.0939 41.0324L1.96062 40.9974L1.0939 41.0324ZM8.12398 33.055L8.39512 33.8789L8.12398 33.055ZM30.5216 55.5207L31.3862 55.4503L30.5216 55.5207ZM15.0807 78.5088L15.056 77.6417L15.0807 78.5088ZM8.06486 72.7333L8.91134 72.5438L8.06486 72.7333ZM37.1786 90.4497L36.3162 90.356L37.1786 90.4497ZM23.7953 110.666L22.9565 110.445C22.8759 110.751 22.9683 111.076 23.1977 111.294C23.4271 111.512 23.7571 111.588 24.0586 111.492L23.7953 110.666ZM26.6715 103.151C26.7935 102.688 26.5168 102.213 26.0536 102.091C25.5903 101.969 25.1158 102.246 24.9938 102.709L26.6715 103.151ZM32.0623 108.942C32.5188 108.797 32.7709 108.309 32.6255 107.853C32.4801 107.396 31.9922 107.144 31.5357 107.289L32.0623 108.942ZM4.67216 1.47812C4.38004 2.29488 4.37983 2.29481 4.37969 2.29475C4.37973 2.29477 4.37966 2.29474 4.37975 2.29478C4.37994 2.29485 4.3804 2.29501 4.38115 2.29528C4.38264 2.29582 4.38524 2.29676 4.38894 2.2981C4.39633 2.3008 4.40811 2.30511 4.42414 2.31105C4.4562 2.32293 4.50525 2.34131 4.57022 2.36628C4.70019 2.41622 4.89379 2.49244 5.14249 2.5955C5.64001 2.80166 6.35729 3.11488 7.22615 3.53945C8.96562 4.38945 11.3034 5.68123 13.699 7.44734C18.507 10.992 23.4387 16.3632 24.3964 23.8177L26.1171 23.5966C25.0729 15.4684 19.7123 9.72516 14.7285 6.05094C12.2281 4.20762 9.79516 2.86389 7.98782 1.98074C7.08328 1.53874 6.33315 1.21097 5.80661 0.992788C5.54328 0.88367 5.33569 0.801883 5.19247 0.746855C5.12085 0.719337 5.06532 0.698501 5.02693 0.684278C5.00774 0.677166 4.99283 0.671708 4.98235 0.667892C4.97711 0.665983 4.97297 0.664486 4.96995 0.663398C4.96845 0.662855 4.96722 0.662414 4.96628 0.662073C4.9658 0.661903 4.96531 0.661726 4.96507 0.661642C4.96465 0.66149 4.96429 0.661362 4.67216 1.47812ZM24.3964 23.8177C25.1443 29.6393 23.8978 35.8261 21.2738 40.5089C18.643 45.2036 14.7362 48.2262 10.2057 48.1321L10.1697 49.8665C15.5854 49.9791 19.9844 46.3586 22.7872 41.357C25.5967 36.3434 26.9116 29.7808 26.1171 23.5966L24.3964 23.8177ZM10.2057 48.1321C8.87798 48.1045 6.82399 47.4953 5.0843 46.2608C3.36113 45.0379 2.05305 43.2833 1.96062 40.9974L0.227181 41.0675C0.347799 44.0507 2.06874 46.2481 4.08028 47.6756C6.0753 49.0913 8.4617 49.8311 10.1697 49.8665L10.2057 48.1321ZM1.96062 40.9974C1.87323 38.8358 2.76951 37.3157 4.0352 36.1964C5.32923 35.052 7.00541 34.3362 8.39512 33.8789L7.85284 32.231C6.37974 32.7158 4.44112 33.5215 2.88594 34.8968C1.30243 36.2971 0.115075 38.2947 0.227181 41.0675L1.96062 40.9974ZM8.39512 33.8789C13.9347 32.056 18.9372 34.3128 22.7674 38.6846C26.6109 43.0714 29.1601 49.4894 29.6571 55.5912L31.3862 55.4503C30.8622 49.017 28.1859 42.2365 24.0723 37.5414C19.9456 32.8312 14.2597 30.1227 7.85284 32.231L8.39512 33.8789ZM29.6571 55.5912C30.0833 60.8245 28.9539 66.3091 26.4405 70.4949C23.9376 74.6633 20.1008 77.498 15.056 77.6417L15.1054 79.3759C20.8708 79.2117 25.1935 75.9418 27.9279 71.3879C30.6519 66.8514 31.8378 60.9958 31.3862 55.4503L29.6571 55.5912ZM15.056 77.6417C13.4738 77.6868 12.1493 77.2686 11.1285 76.4501C10.1058 75.63 9.31561 74.3498 8.91134 72.5438L7.21838 72.9228C7.69063 75.0324 8.65427 76.6899 10.0432 77.8036C11.4342 78.9189 13.1793 79.4307 15.1054 79.3759L15.056 77.6417ZM8.91134 72.5438C8.54165 70.8924 8.91266 69.576 9.75031 68.4797C10.6143 67.3489 12.0097 66.4117 13.7338 65.6644L13.0439 64.0726C11.1801 64.8804 9.48638 65.9676 8.37177 67.4264C7.23084 68.9197 6.7338 70.7582 7.21838 72.9228L8.91134 72.5438ZM13.7338 65.6644C19.508 63.1617 25.3993 66.1529 29.8382 71.5904C34.2665 77.0149 36.9465 84.5528 36.3162 90.356L38.0409 90.5433C38.7333 84.168 35.8257 76.1815 31.1821 70.4933C26.5492 64.818 19.8842 61.1079 13.0439 64.0726L13.7338 65.6644ZM36.3162 90.356C35.827 94.8607 32.6343 99.7434 29.4313 103.587C27.8467 105.488 26.2923 107.097 25.1337 108.231C24.5549 108.798 24.076 109.244 23.7429 109.548C23.5764 109.701 23.4464 109.817 23.3587 109.895C23.3149 109.933 23.2817 109.963 23.2597 109.982C23.2487 109.991 23.2406 109.999 23.2353 110.003C23.2327 110.005 23.2308 110.007 23.2297 110.008C23.2291 110.008 23.2287 110.009 23.2285 110.009C23.2284 110.009 23.2284 110.009 23.2284 110.009C23.2284 110.009 23.2285 110.009 23.7953 110.666C24.3621 111.322 24.3623 111.322 24.3625 111.322C24.3627 111.322 24.3629 111.322 24.3632 111.321C24.3638 111.321 24.3645 111.32 24.3654 111.319C24.3673 111.318 24.3698 111.316 24.3732 111.313C24.3798 111.307 24.3894 111.299 24.4018 111.288C24.4266 111.266 24.4628 111.234 24.5097 111.193C24.6033 111.11 24.7396 110.988 24.9127 110.83C25.2588 110.514 25.7524 110.053 26.3471 109.471C27.5357 108.308 29.1325 106.655 30.764 104.698C33.9931 100.823 37.492 95.5974 38.0409 90.5433L36.3162 90.356ZM24.6341 110.887L26.6715 103.151L24.9938 102.709L22.9565 110.445L24.6341 110.887ZM24.0586 111.492L32.0623 108.942L31.5357 107.289L23.532 109.839L24.0586 111.492Z"
+                fill="#6C5FBC"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="purchases">
+        <div class="purch__title__and__date">
+          <div class="purch__title">Purchases</div>
+          <div class="purch__date">
+            <div class="purch__date__value">This month</div>
+
+            <div class="down__arrow">
+              <svg
+                class="down-arrow-svg"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.4209 10.2529L12.7033 16.5353L18.9856 10.2529"
+                  stroke="#1A202C"
+                  stroke-width="2.35588"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="hided__dates">
+              <div class="some__date date-years">Years</div>
+              <div class="some__date date-month">Month</div>
+              <div class="some__date date-week">Week</div>
+              <div class="some__date date-day">Day</div>
+              <div class="some__date last__hided__dateel date-hours">Hours</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expense">
+          <div class="expense__first__line">
+            <div class="expenseico__and__info">
+              <img
+                id="wallet__svgimg"
+                src="assets/icons/walletico.svg"
+                alt=""
+              />
+              <div class="expense__info">
+                <div class="expense__title purch-progress-title">Expense</div>
+                <div class="expense__changes purch-changes">
+                  Increased By 10%
+                </div>
+              </div>
+            </div>
+            <div class="money__on__balance expense-money">$409.00</div>
+          </div>
+          <div class="divider__line">
+            <div class="divider__outline"></div>
+          </div>
+        </div>
+        <div class="vocher__usage">
+          <div class="vocher__first__line">
+            <div class="vocherico__and__info">
+              <img id="money__svgimg" src="assets/icons/moneyicon.svg" alt="" />
+              <div class="vocher__info">
+                <div class="vocher__title purch-progress-title">
+                  Vocher Usage
+                </div>
+                <div class="vocher__changes purch-changes">Increased By 5%</div>
+              </div>
+            </div>
+            <div class="money__on__balance vocher vocher-money">$45.78</div>
+          </div>
+          <div class="vocher__divider__line">
+            <div class="vocher__divider__outline"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="after-block-line">
+      <hr class="line-after-block" />
+    </div>
+
+    <div class="to-block-title ta-center one-line-title">
+      <span class="title-purple-word">Customer</span> Say
+    </div>
+    <div class="customers-review">
+      <!-- Slider main container -->
+      <div class="swiper reviews-slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="slide-first-line flex">
+              <div class="customer flex">
+                <img
+                  class="customers-img"
+                  src="assets/icons/customerphoto.png"
+                  alt=""
+                />
+                <div class="customer__name__and__timewithus">
+                  <div class="customer-name">Ivan P.</div>
+                  <div class="time__with__us">01 Year With Us</div>
+                </div>
+              </div>
+              <div class="quote-icon">
+                <img
+                  class="quote-img"
+                  src="assets/icons/quoteicon.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="review flex flex-center">
+              “ Online invoice payment helps companies save time, are faster and
+              save maximum effort for the clients and save maximum effort.
+              Online invoice payment helps companies save time ”
+            </div>
+            <div class="rate-stars">
+              <img src="assets/icons/ratestars.svg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-first-line">
+              <div class="customer flex">
+                <img
+                  class="customers-img"
+                  src="assets/icons/customerphoto.png"
+                  alt=""
+                />
+                <div class="customer__name__and__timewithus">
+                  <div class="customer-name">Vladilen M.</div>
+                  <div class="time__with__us">01 Year With Us</div>
+                </div>
+              </div>
+              <div class="quote-icon">
+                <img
+                  class="quote-img"
+                  src="assets/icons/quoteicon.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="review flex flex-center">
+              “ Online invoice payment helps companies save time, are faster and
+              save maximum effort for the clients and save maximum effort.
+              Online invoice payment helps companies save time ”
+            </div>
+            <div class="rate-stars">
+              <img src="assets/icons/ratestars.svg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-first-line">
+              <div class="customer flex">
+                <img
+                  class="customers-img"
+                  src="assets/icons/customerphoto.png"
+                  alt=""
+                />
+                <div class="customer__name__and__timewithus">
+                  <div class="customer-name">Pavel D.</div>
+                  <div class="time__with__us">01 Year With Us</div>
+                </div>
+              </div>
+              <div class="quote-icon">
+                <img
+                  class="quote-img"
+                  src="assets/icons/quoteicon.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="review flex flex-center">
+              “ Online invoice payment helps companies save time, are faster and
+              save maximum effort for the clients and save maximum effort.
+              Online invoice payment helps companies save time ”
+            </div>
+            <div class="rate-stars">
+              <img src="assets/icons/ratestars.svg" alt="" />
+            </div>
+          </div>
+          <!-- -============== -->
+          <div class="swiper-slide">
+            <div class="slide-first-line">
+              <div class="customer flex">
+                <img
+                  class="customers-img"
+                  src="assets/icons/customerphoto.png"
+                  alt=""
+                />
+                <div class="customer__name__and__timewithus">
+                  <div class="customer-name">Larry P.</div>
+                  <div class="time__with__us">01 Year With Us</div>
+                </div>
+              </div>
+              <div class="quote-icon">
+                <img
+                  class="quote-img"
+                  src="assets/icons/quoteicon.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="review flex flex-center">
+              “ Online invoice payment helps companies save time, are faster and
+              save maximum effort for the clients and save maximum effort.
+              Online invoice payment helps companies save time ”
+            </div>
+            <div class="rate-stars">
+              <img src="assets/icons/ratestars.svg" alt="" />
+            </div>
+          </div>
+          <!-- -================== -->
+          <div class="swiper-slide">
+            <div class="slide-first-line last-slide-first-line">
+              <div class="customer flex">
+                <img
+                  class="customers-img"
+                  src="assets/icons/customerphoto.png"
+                  alt=""
+                />
+                <div class="customer__name__and__timewithus">
+                  <div class="customer-name">Mark C.</div>
+                  <div class="time__with__us">01 Year With Us</div>
+                </div>
+              </div>
+              <div class="quote-icon">
+                <img
+                  class="quote-img"
+                  src="assets/icons/quoteicon.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="review flex flex-center">
+              “ Online invoice payment helps companies save time, are faster and
+              save maximum effort for the clients and save maximum effort.
+              Online invoice payment helps companies save time ”
+            </div>
+            <div class="rate-stars">
+              <img src="assets/icons/ratestars.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </div>
+    <style>
+      .subscribe-container {
+        background: url("assets/images/subscribebg.png") 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        width: 100%;
+        height: 100%;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .subscribe-section {
+          padding: 0 30px;
+        }
+        .subscribe-container {
+          background: url("assets/images/subscribemobile.svg") 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+        }
+        .subs__and__bonus {
+          margin: 0 auto;
+        }
+        .how-much-bonus {
+          margin: 0.3em auto 0.3em auto;
+          font-size: 75px;
+        }
+        .email-input {
+          margin: 0 auto;
+          max-width: 440px;
+        }
+      }
+    </style>
+    <div class="subscribe-section">
+      <div class="subscribe-container">
+        <div class="subs__and__bonus">
+          <div class="how-much-bonus">GET 50%</div>
+
+          <form class="email-form" action="#" method="POST">
+            <div class="email-input">
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Enter Your Email Address"
+              />
+              <div class="subscribe-btn flex flex-center">
+                <button type="submit" class="subscribe-btn flex flex-center">
+                  SUBSCRIBE
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-first-line">
+          <div class="for-mobile-first-line">
+            <div class="foot-logo">
+              <img src="/assets/icons/footlogo.png" alt="" />
+            </div>
+            <div class="mobile-social-container">
+              <img
+                class="mobile-foot-social"
+                src="/assets/icons/instimg.svg"
+                alt=""
+              />
+              <img
+                class="mobile-foot-social"
+                src="/assets/icons/linkedinimg.svg"
+                alt=""
+              />
+              <img
+                class="mobile-foot-social"
+                src="/assets/icons/facebookimg.svg"
+                alt=""
+              />
+              <img
+                class="mobile-foot-social"
+                src="/assets/icons/twitterimg.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="sitemap">
+            <li class="foot__btn">
+              <a href="blog.html" class="foot__btn__link">Blog</a>
+            </li>
+            <li class="foot__btn">
+              <a href="pricing.html" class="foot__btn__link">Pricing</a>
+            </li>
+            <li class="foot__btn">
+              <a href="index.html" class="foot__btn__link">About Us</a>
+            </li>
+            <li class="foot__btn">
+              <a href="contact.html" class="foot__btn__link">Contact</a>
+            </li>
+          </div>
+        </div>
+        <hr class="line-in-footer" />
+
+        <div class="foot-sec-line">
+          <div class="rights">© 2023 EATLY All Rights Reserved.</div>
+          <div class="social-media">
+            <div class="foot-inst soc-med">
+              <svg
+                class="social-media-svg"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.7721 0C12.1916 0.0506994 13.6618 0.0506994 15.0812 0.101392C16.3486 0.152085 17.5146 0.354867 18.6299 1.0139C20.0494 1.87572 20.9112 3.14309 21.2154 4.76533C21.3674 5.72853 21.4181 6.74243 21.4688 7.70564C21.5195 9.83483 21.4688 11.964 21.4688 14.0932C21.4688 15.2085 21.4181 16.3238 21.0633 17.3884C20.3535 19.4669 18.8834 20.7342 16.7542 21.1398C15.791 21.3426 14.7771 21.3426 13.8139 21.3933C11.6846 21.444 9.60615 21.3933 7.47694 21.3933C6.36165 21.3933 5.24635 21.3426 4.18176 20.9877C2.10325 20.278 0.835867 18.8078 0.430303 16.6786C0.227525 15.7154 0.227525 14.7015 0.176829 13.7383C0.126131 11.6091 0.176829 9.47996 0.176829 7.35077C0.176829 6.23549 0.227525 5.1202 0.582391 4.05559C1.29213 1.9771 2.76229 0.709734 4.89148 0.304173C5.8547 0.101399 6.8686 0.101399 7.83181 0.0506994C8.79502 0 9.75823 0 10.7721 0V0ZM19.5426 10.4939C19.5426 10.4939 19.4919 10.4939 19.5426 10.4939C19.4919 9.6321 19.4919 8.82097 19.4919 7.95916C19.4919 7.14805 19.4412 6.33692 19.3398 5.52581C19.137 3.70078 18.0724 2.4841 16.2981 2.12924C15.3855 1.92646 14.3716 1.92646 13.4591 1.92646C11.6341 1.87577 9.85976 1.87577 8.03473 1.92646C7.12222 1.92646 6.2097 1.97715 5.34788 2.12924C3.82702 2.38271 2.76243 3.24453 2.30617 4.76538C2.15408 5.27233 2.10339 5.77928 2.05269 6.28623C2.002 8.21264 2.002 10.139 2.002 12.0655C2.002 13.2821 2.05269 14.5495 2.15408 15.7662C2.30617 17.5912 3.42146 18.8586 5.2465 19.1627C6.159 19.3148 7.12222 19.3655 8.08543 19.3655C9.85976 19.4162 11.6341 19.3655 13.4591 19.3655C14.2703 19.3655 15.0814 19.3148 15.8925 19.2134C16.6529 19.1627 17.3627 18.9093 17.971 18.4023C18.9849 17.5912 19.3398 16.5266 19.3905 15.3099C19.4919 13.7891 19.4919 12.1668 19.5426 10.4939Z"
+                  fill="#081420"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16.2471 10.6962C16.2471 13.7379 13.8137 16.1712 10.772 16.1712C7.73025 16.1712 5.29688 13.7379 5.29688 10.6455C5.29688 7.65453 7.78094 5.22119 10.8227 5.22119C13.8137 5.22119 16.2471 7.65453 16.2471 10.6962ZM10.7719 14.2448C12.6983 14.2448 14.3205 12.6226 14.3205 10.6962C14.3205 8.76976 12.6983 7.14752 10.7719 7.14752C8.79474 7.14752 7.22318 8.76976 7.22318 10.6962C7.17248 12.6226 8.79474 14.2448 10.7719 14.2448Z"
+                  fill="#081420"
+                />
+                <path
+                  d="M17.7184 4.96758C17.7184 5.67731 17.1607 6.28566 16.451 6.28566C15.7413 6.28566 15.1329 5.67731 15.1836 4.96758C15.1836 4.25785 15.7413 3.7002 16.451 3.7002C17.1607 3.7002 17.7184 4.25784 17.7184 4.96758Z"
+                  fill="#081420"
+                />
+              </svg>
+            </div>
+            <!-- Linkedin -->
+            <div class="foot-linkedin soc-med">
+              <svg
+                class="social-media-svg"
+                width="22"
+                height="21"
+                viewBox="0 0 22 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M21.633 12.4811V20.3602H17.032V12.9987C17.032 11.1583 16.3994 9.89304 14.7315 9.89304C13.4663 9.89304 12.7186 10.7557 12.3735 11.5609C12.2585 11.8484 12.201 12.251 12.201 12.6536V20.3602H7.60001C7.60001 20.3602 7.65752 7.88013 7.60001 6.61487H12.201V8.57027C12.201 8.57027 12.201 8.62777 12.1435 8.62777H12.201V8.57027C12.8336 7.65008 13.8689 6.26979 16.3419 6.26979C19.3325 6.26979 21.633 8.28271 21.633 12.4811V12.4811ZM2.88347 0.000976562C1.33063 0.000976562 0.29541 1.03619 0.29541 2.35897C0.29541 3.68174 1.27312 4.71697 2.82595 4.71697H2.88347C4.49381 4.71697 5.47152 3.68175 5.47152 2.35897C5.41401 1.03619 4.4363 0.000976562 2.88347 0.000976562V0.000976562ZM0.526056 20.3602H5.06954V6.61489H0.526056V20.3602Z"
+                  fill="#081420"
+                />
+              </svg>
+            </div>
+            <!-- Facebook -->
+            <div class="foot-fb soc-med">
+              <svg
+                class="social-media-svg"
+                width="11"
+                height="22"
+                viewBox="0 0 11 22"
+                fill=""
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M9.95256 10.6695H6.97166V21.338H2.52644V12.415V10.6695H0.43457V6.90414H2.52644V4.4462C2.52644 2.72041 3.36319 0.000976562 6.97166 0.000976562H10.2663V3.66174H7.913C7.54692 3.66174 6.97166 3.87094 6.97166 4.70768V6.90414H10.3186L9.95256 10.6695Z"
+                  fill="#081420"
+                />
+              </svg>
+            </div>
+
+            <!-- Twitter -->
+            <div class="foot-twitter soc-med">
+              <svg
+                class="social-media-svg"
+                width="22"
+                height="19"
+                viewBox="0 0 22 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M21.6159 2.82596C20.8126 3.1774 20.0093 3.42842 19.1056 3.52883C20.0093 2.97658 20.7122 2.1231 21.0134 1.11901C20.1599 1.62106 19.2061 1.97249 18.2522 2.1733C17.4489 1.31982 16.2942 0.767578 15.039 0.767578C12.6292 0.767578 10.6712 2.72555 10.6712 5.13537C10.6712 5.48681 10.7214 5.83823 10.7716 6.13947C7.10668 5.93865 3.89356 4.23169 1.73475 1.57085C1.33311 2.22351 1.13229 2.97658 1.13229 3.77985C1.13229 5.28599 1.88536 6.64151 3.09028 7.44478C2.38741 7.44478 1.68455 7.24397 1.08208 6.89253V6.94273C1.08208 9.05133 2.58823 10.8587 4.59643 11.2603C4.24499 11.3607 3.84336 11.4109 3.44171 11.4109C3.14049 11.4109 2.88946 11.3607 2.63844 11.3105C3.19069 13.0677 4.79725 14.3228 6.75524 14.373C5.24909 15.5277 3.39151 16.2306 1.33311 16.2306C0.981677 16.2306 0.630245 16.2306 0.278809 16.1804C2.2368 17.4355 4.49602 18.1383 7.00626 18.1383C15.0893 18.1383 19.4571 11.4611 19.4571 5.68762C19.4571 5.48681 19.4571 5.28599 19.4571 5.13537C20.3106 4.48272 21.0636 3.67944 21.6159 2.82596V2.82596Z"
+                  fill="#081420"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
