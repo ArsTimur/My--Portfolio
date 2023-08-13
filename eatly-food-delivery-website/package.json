@@ -1,0 +1,35 @@
+{
+    "name": "fooddeliverysite",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack-dev-server --mode development",
+        "start": "webpack serve --config webpack.config.js --open",
+        "build": "webpack --config webpack.config.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^6.8.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.5.3",
+        "sass": "^1.63.4",
+        "sass-loader": "^13.3.2",
+        "style-loader": "^3.3.3",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.87.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    },
+    "dependencies": {
+        "jquery": "^3.7.0",
+        "jquery-ui": "^1.13.0",
+        "latest": "^0.2.0",
+        "popper.js": "^1.16.1",
+        "slick-carousel": "^1.8.1",
+        "swiper": "^10.0.4",
+        "swiper-bundle": "^0.0.1-security",
+        "version": "^0.1.2"
+    }
+}
