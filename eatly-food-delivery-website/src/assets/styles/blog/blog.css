@@ -1,1 +1,362 @@
 
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+.subscont-in-blog {
+  margin: 5em auto 5em auto !important;
+}
+.articles-title {
+  margin: 2em 0 2em 0;
+  text-align: center;
+}
+.latest-articles {
+  max-width: 1250px !important;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.latest-articles {
+  max-width: 1250px !important;
+  position: relative;
+  height: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0 auto !important;
+}
+
+.articles-swiper {
+  width: 1250px !important;
+  height: 1150px !important;
+  margin: 0 auto!important;
+  position: relative;
+}
+
+.swiper-wrapper {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 7em 30px;
+}
+.swiper-slide {
+  padding: 20px 20px 30px 20px;
+  font-size: 18px;
+  background: grey;
+  max-width: 350px !important;
+  width: 100% !important;
+  height: 440px !important;
+  margin: 0 auto !important;
+  border-radius: 15.855px;
+  background: var(--white, #fff);
+  box-shadow: 0px 3.9053337574005127px 46.86400604248047px 0px
+    rgba(197, 197, 197, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  cursor: pointer;
+  }
+  .swiper-nav-buttons {
+    display: flex;
+    gap: 0 30px;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    z-index: 3;
+    transform: translateX(-50%);
+  }
+  .slide-nav-btn{
+    cursor: pointer !important;
+    position: relative;
+    z-index: 3;
+  }
+.pustichka-knopki-slidera{
+  color: #605E5E; /*Next Btn color*/
+  color: #CECECE; /*Prev Btn color*/
+}
+/* Questions Container's Styles */
+.questions-container {
+  max-width: 1250px;
+  margin: 30em auto 0 auto;
+}
+.quest-title-block {
+  display: flex;
+  justify-content: center;
+}
+.questions-title {
+  display: inline-block;
+}
+.prplearrows {
+  display: flex;
+  justify-content: flex-end;
+}
+.quest-title {
+  margin: 0 50px;
+}
+.questions-block {
+  margin: 100px 0;
+}
+.question {
+  margin: 20px 0 0 0;
+}
+.question-name-show-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question-name {
+  color: #323142;
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 60px;
+}
+.show-answer-btn {
+  cursor: pointer;
+}
+.line-after-question {
+  opacity: 0.7;
+}
+.answer-to-asked-question {
+  display: none;
+  color: #686868;
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.2px;
+  width: 70%;
+  margin: 30px 0;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.hide-answer-btn {
+  display: none;
+  cursor: pointer;
+}
+.in-menu-block-title {
+  font-size: 35px !important;
+}
+
+/* Articles Cards Styles */
+.article-pic{
+    margin: 0 auto;
+}
+.articles-card-title{
+    color: #252525;
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-weight: 600;
+}
+.info-about-card{
+    display: flex;
+    justify-content: space-between;
+}
+.card-maker-info{
+    display: flex;
+    gap: 0 10px;
+    align-items: center;
+    line-height: 18px;
+}
+.writen-by-who{
+    color: #8D8D8D;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+}
+.writer{
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 500;
+}
+.card-made-date{
+    color: #B7B4B4;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.footer{
+    margin: 15em 0 0 0;
+}
+
+
+  
+.in-card-page{
+  display: none !important;
+}
+.show-in-card-page {
+  display: block !important;
+}
+/* .subscont-in-blog,
+.articles-title,
+.latest-articles,
+.questions-container{
+  display: none !important;
+} */
+.hide-blocks{
+  display: none !important;
+}
+.in-card-container{
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.in-card-page-title{
+    margin: 2em 0 0em 0;
+    font-size: 37.5px !important;
+}
+.card-descr-and-top-articles{
+  display: flex;
+  justify-content: space-between;
+}
+.card-descr-container{
+  margin: 3em 0 0 0;
+  padding: 0 30px 0 0;
+}
+.card-maker-info-incard{
+  margin: 1em 0 3em 0;
+}
+.to-descr-title{
+  font-size: 33px !important;
+  color: #252525;
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-weight: 600;
+}
+.card-descr-block{
+  color: #252525;
+  text-align: justify;
+  font-family: 'Poppins';
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 44.5px;
+  max-width: 820px;
+  width: 100%;
+  margin: 1em 0;
+}
+.top-articles-title{
+  color: #252525;
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 600;
+  margin: 1.5em 0 1.5em 0;
+}
+
+.top-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15.855px;
+  background: var(--white, #fff);
+  box-shadow: 0px 3.9053337574005127px 46.86400604248047px 0px
+    rgba(197, 197, 197, 0.25);
+  max-width: 300px;
+  width: 100%;
+  padding: 20px 17px 25px 17px;
+  cursor: pointer;
+  gap: 15px 0;
+}
+.top-card .article-pic{
+  max-width: 265px;
+  width: 100%;
+}
+.middle-side-article-card{
+  margin: 4.5em 0;
+}
+.articles-card-title-onside{
+  font-size: 20px !important;
+}
+.descr-nuance{
+  color: #252525;
+  font-family: 'Poppins';
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 44.5px;
+  margin: 0 5px;
+}
+  .descr-nuance::before {
+    content: "\2022"; /* Символ точки */
+    font-weight: bold; /* Жирное начертание */
+    margin-right: 5px; /* Дополнительный отступ справа, если нужно */
+}
+.sec-info-block{
+  margin: 10em 0;
+}
+.two-blocks-delimiter{
+  margin: 2.8em 0 10em 0;
+  opacity: 0.5;
+}
+
+.download__button{
+  background-color: #6c5fbc;
+  width: 185px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  gap: 0 15px;
+  margin: 70px 0;
+  transition: 0.3s ease;
+  cursor: pointer;
+  line-height: 15px;
+}
+.download__button:hover{
+  gap: 0 40px;
+}
+.download__button__text{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+}
+.go-back-container{
+  display: flex;
+  justify-content: flex-end;
+  line-height: 1px;
+}
+.back-to-latest-articles{
+  display: flex;
+  font-family: 'Poppins';
+  line-height: 1px;
+  align-items: center;
+  gap: 0 15px;
+  cursor: pointer;
+  padding: 5px 5px;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.back-to-latest-articles::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.back-to-latest-articles:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+.onleft__arrow{
+  transform: rotate(-180deg);
+
+}
