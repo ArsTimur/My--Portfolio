@@ -1,0 +1,526 @@
+.control-dashboard{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 50px;
+    padding: 0 30px;
+}
+
+.orders{
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+}
+
+.order{
+    display: flex;
+    align-items: center;
+    max-width: 345px;
+    width: 100%;
+    gap: 0 20px;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    
+}
+.active__order{
+    box-shadow: 0px 20.06800651550293px 30.10201072692871px 0px rgba(70, 70, 70, 0.10);
+}
+.cancelled__order{
+    color: #F1534E !important;
+}
+.order__settings{
+    width: 100%;
+}
+.order__title{
+    color: #323142;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+.order-img{
+    max-width: 73px;
+    height: auto;
+}
+.order__info{
+    color: #323142;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 5px 0 0 0;
+}
+.order__time{
+    display: flex;
+    justify-content: flex-end;
+    color: #acadb9;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.purchases{
+    max-width: 535px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1.6px solid #EDF2F7;
+    box-shadow: 0px 30px 40px -1px rgba(50, 49, 66, 0.2);
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    height: auto;
+    position: relative;
+}
+.purch__title__and__date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.purch__title{
+    color: #1A202C;
+    font-size: 28px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    letter-spacing: 0.314px;
+}
+.purch__date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+    color: #1A202C;
+    text-align: right;
+    font-size: 19px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    letter-spacing: 0.628px;
+    background-color: #f3f1f1;
+    border-radius: 13px;
+    max-width: 175px;
+    width: 100%;
+    height: 55px;
+    gap: 0 10px;
+    cursor: pointer;
+
+}
+.down__arrow{
+    transition: 0.3s ease;
+}
+.down__arrow__hover{
+    transform: rotate(180deg);
+}
+.expense{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 460px;
+    width: 100%;
+    border-radius: 18.847px;
+    border: 2px solid #EDF2F7;
+    height: 135px;
+    padding: 0 30px;
+    gap: 20px 0;
+}
+.expense__first__line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.expense__info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+.expenseico__and__info{
+    display: flex;
+    gap: 0 20px;
+    
+}
+.expense__title{
+    color: #1A202C;
+    font-size: 19px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    letter-spacing: 0.6px;
+}
+.expense__changes{
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: #A0AEC0;
+}
+.money__on__balance{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    color: #1A202C;
+}
+.divider__line{
+    border-radius: 78.529px;
+    background: rgba(108, 95, 188, 0.2);
+    width: 100%;
+}
+.divider__outline{
+    border-radius: 78.529px;
+    background: #6C5FBC;  
+    height: 10px;
+    width: 75%;  
+    transition: 0.5s ease;
+}
+
+.vocher__usage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 460px;
+    width: 100%;
+    border-radius: 18.847px;
+    border: 2px solid #EDF2F7;
+    height: 135px;
+    padding: 0 30px;
+    gap: 20px 0;
+}
+.vocher__first__line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vocher__info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+.vocherico__and__info{
+    display: flex;
+    gap: 0 20px;
+}
+.vocher__title{
+    color: #1A202C;
+    font-size: 19px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    letter-spacing: 0.6px;
+}
+.vocher__changes{
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: #A0AEC0;
+}
+.money__on__balance{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    color: #1A202C;
+}
+.vocher__divider__line{
+    border-radius: 78.529px;
+    background: rgba(251, 173, 24, 0.2);
+    width: 100%;
+}
+.vocher__divider__outline{
+    border-radius: 78.529px;    
+    background: #FBAD18;
+    height: 10px;
+    width: 60%; 
+    transition: 0.5s ease;
+}
+.hided__dates{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    background-color: #f3f1f1;
+    max-width: 175px;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    top: 20%;
+}
+
+.some__date{
+    transition: 0.4s ease;
+    padding: 20px;
+}
+.some__date:hover{
+    background-color: #e3e3e3; 
+}
+.last__hided__dateel{
+    border-radius: 0px 0px 20px 20px;
+}
+
+.arrow-from-orders-to-dashboard{
+    display: none;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 1200px) {
+    .to-dashboard-title{
+        font-size: 45px !important;
+    }
+}
+
+@media only screen and (max-width: 1072px) {
+    .to-dashboard-title{
+        font-size: 40px !important;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .to-dashboard-title{
+        font-size: 36px !important;
+        line-height: 45px !important;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    .to-dashboard-title{
+        font-size: 32px !important;
+        max-width: 420px !important;
+        line-height: 40px !important;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .to-dashboard-title{
+        font-size: 27px !important;
+        max-width: 420px !important;
+        line-height: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .to-dashboard-title{
+        font-size: 25px !important;
+        max-width: 420px !important;
+        line-height: 35px !important;
+    }
+}
+@media only screen and (max-width: 800px) {
+
+    .to-dashboard-title{
+        font-size: 23px !important;
+        max-width: 420px !important;
+        line-height: 40px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .to-dashboard-title{
+        font-size: 40px !important;
+        max-width: 420px !important;
+        line-height: 48px !important;
+    }
+    .control-dashboard{
+        flex-direction: column;
+        gap: 2em 0;
+    }
+    .orders{
+        position: relative;
+    }
+    .arrow-from-orders-to-dashboard{
+       display: flex !important;
+       position: absolute;
+       top: 80%;
+       right: 0;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .purch__date{
+            font-size: 15px;
+            max-width: 140px;
+            height: 50px;
+    }
+    .hided__dates{
+        max-width: 140px;
+        top: 14.5%;
+    }
+    .some__date{
+        max-width: 140px;
+        font-size: 15px;
+    }
+    .purchases{
+        padding: 20px 20px;
+    }
+    .purch-progress-title{
+        font-size: 16px;
+    }
+    .purch-changes{
+        font-size: 13px;
+    }
+    .money__on__balance{
+        font-size: 20px;
+    }
+    .down-arrow-svg{
+        width: 20px;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+    .to-dashboard-title{
+        font-size: 38px !important;
+        line-height: 40px !important;
+    }
+    .arrow-from-orders-to-dashboard{
+        display: none !important;
+    }
+    .expense{
+        padding: 5px 15px;
+    }
+    .expenseico__and__info{
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+    }
+    .vocher__usage{
+        padding:5px 15px;
+    }
+    .vocherico__and__info{
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+    }
+   .purch__title{
+    font-size: 25px;
+   }
+   .purch-progress-title{
+    font-size: 13px;
+   }
+   .money__on__balance{
+    font-size: 15px;
+   }
+   .purch-changes{
+    font-size: 11px;
+   }
+}
+@media only screen and (max-width: 420px) {
+    .to-dashboard-title{
+        font-size: 34px !important;
+        line-height: 40px !important;
+    }
+    #wallet__svgimg,
+    #money__svgimg{
+        width: 40px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .purch__title{
+        font-size: 22px;
+    }
+    .order__title{
+        font-size: 16px;
+    }
+    .order-img{
+        max-width: 70px;
+        height: auto;
+    }
+    .order__info{
+        font-size: 10px;
+    }
+    .order__time{
+        font-size: 11px;
+    }
+    .money__on__balance{
+        font-size: 12px;
+    }
+    .purch-progress-title{
+        font-size: 11px;
+    }
+    .purch-changes{
+        font-size: 8px;
+    }
+    .down-arrow-svg{
+        width: 15px;
+    }
+    .purch__date{
+        font-size: 12px;
+        max-width: 110px;
+        height: 40px;
+        gap: 0 5px;
+    }
+    .hided__dates{
+    max-width: 110px;
+    top: 12%;
+}
+    .some__date{
+    max-width: 110px;
+    font-size: 12px;
+    padding: 15px;
+}
+    .divider__outline{
+        height: 6px;
+    }
+    .vocher__divider__outline{
+        height: 6px;
+    }
+    .to-dashboard-title{
+        font-size: 30.5px !important;
+        line-height: 40px !important;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .purch__title{
+        font-size: 18px;
+    }
+    .order{
+        gap: 0 10px;
+        padding: 5px 10px;
+    }
+    .order-img{
+        max-width: 65px;
+    }
+    .to-dashboard-title{
+        font-size: 29px !important;
+        line-height: 40px !important;
+    }
+    .control-dashboard{
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .to-dashboard-title{
+        font-size: 27px !important;
+        line-height: 30px !important;
+    }
+    .control-dashboard{
+        padding: 0 10px;
+    }
+    .purchases{
+        padding: 10px 10px;
+    }
+    .purch-progress-title{
+        font-size: 9px;
+    }
+    #wallet__svgimg,
+    #money__svgimg{
+        width: 30px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .purch__title__and__date{
+        flex-direction: column;
+        gap: 15px 0;
+       }
+       .hided__dates{
+        max-width: 110px;
+        top: 20%;
+    }
+        .some__date{
+        max-width: 110px;
+        font-size: 12px;
+        padding: 15px;
+    }
+    .to-dashboard-title{
+        font-size: 24px !important;
+        line-height: 25px !important;
+    }
+}

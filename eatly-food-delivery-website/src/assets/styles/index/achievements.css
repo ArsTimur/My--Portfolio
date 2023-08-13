@@ -1,0 +1,35 @@
+.achievements{
+    margin: 6em 0;
+    padding: 60px 20px;
+}
+ .achieves__block{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+ .achieves{
+    text-align: center;
+} 
+
+.num__of__achieve{
+    color: #FFFFFF;
+    font-size: 43px;
+    font-weight: 700;
+    font-family: 'Public Sans';
+    margin: 0 0 15px 0;
+}
+.descr__to__achieve{
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 22px;
+    color: #CBD5E1;
+    
+}
+.delimiter__line{
+    opacity: 0.1;
+    border: 1px solid #C5C5C5;
+    transform: rotate(0deg);
+}

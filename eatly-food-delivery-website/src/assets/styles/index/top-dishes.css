@@ -1,0 +1,224 @@
+
+.top-dishes{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.top__dishes__container{
+    display: flex;
+    margin: 5em auto;
+    gap: 0 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dish{
+    border-radius: 35px;
+    border: 1.5px solid #F4F4F6;
+    box-shadow: 7px 82px 41px 0px rgba(229, 229, 229, 0.70);
+    max-width: 225px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    user-select: none;
+    flex-direction: column;
+    margin: 0 0 30px 0;
+    height: 400px;
+    flex-basis: calc(20% - 30px);
+}
+
+.heart__svg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px 20px 0 0;
+}
+.heart{
+    cursor: pointer;
+}
+
+/* Fade Like Click Animations */
+.fade__like__effect{
+    animation-duration: 0.3s;
+    animation-name: fade-click-effect;
+    transform: scale(1.2);
+    fill: #323142;
+    
+}
+@keyframes fade-click-effect{
+    0%{
+        transform: scale(1);
+        fill: rgba(50, 49, 66, 0.3);
+    }
+    50%{
+        transform: scale(0.9);
+        fill: rgba(50, 49, 66, 0.6);
+    }
+    100%{
+        transform: scale(1.2);
+        fill: #323142;
+    }
+}
+.fade__like__inactive{
+    animation-duration: 0.3s;
+    animation-name: fade-click-inactive;
+    transform: scale(1);
+}
+@keyframes fade-click-inactive {
+    0%{
+        transform: scale(1.2);
+        fill: rgba(50, 49, 66, 1);
+    }
+    100%{
+        transform:scale(1);
+        fill: none;
+    }
+}
+
+.type__styles{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: #daa31a;
+    background-color: #f7edd0;
+    border-radius: 6px;
+    max-width: 65px;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dish__type{
+    font-size: 11.5px !important;
+}
+.dish__title{
+    color: #323142;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 42px;
+    font-size: 23px;
+    margin: 0 0 5px 0;
+}
+.dish__price{
+    font-family: 'Manrope';
+    font-size: 26px;
+    font-weight: 700;
+    color: #323142;
+}
+.price__lastwrd{
+    font-size: 19px;
+    color: #8e97a6;
+}
+.dish__price__and__add{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+    align-items: center;
+}
+.dish__minutes{
+    display: flex;
+    align-items: center;
+    color: #8e97a6;
+    font-size: 17px;
+    font-family: 'Manrope', sans-serif;
+}
+.dish__stars{
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+}
+.dish__rating{
+    display: flex;
+    align-items: center;
+    color: #8e97a6;
+    font-size: 17px;
+    font-family: 'Manrope', sans-serif;
+}
+.type__supreme{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: #309D5B;
+    background-color: rgba(51, 172, 100, 0.2);
+    border-radius: 6px;
+    width: 65px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plussvg{
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.basket__quantity{
+    color: #8E97A6;
+    font-family: 'Manrope';
+    font-size: 17px;
+    font-weight: 700;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete__basket__btn{
+    color: #FFF;
+    background-color: #323142;
+    width: 25px;
+    height: 25px;
+    border-radius: 7px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.view__all__dishes{
+    display: flex;
+    gap: 0 15px;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 30px;
+}
+.hide__dishes{
+    display: none;
+    gap: 0 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* Responsive Styles */
+
+
+@media only screen and (max-width: 1200px) {
+    .top-dishes{
+        padding: 0 0;
+    }
+    .top__dishes__container{
+        display: flex;
+        gap: 0 20px;
+    }
+    
+}
+@media only screen and (max-width: 1100px) {
+    .dish{
+        padding: 0px 20px 0px 20px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .top__dishes__container{
+        flex-wrap: wrap;
+    }
+    
+    .dish__title{
+        font-size: 21px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .dish{
+        flex-basis:auto;
+        padding: 10px 20px 10px 20px;
+    }
+}
+

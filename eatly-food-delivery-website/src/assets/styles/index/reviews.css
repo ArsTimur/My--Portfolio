@@ -1,0 +1,226 @@
+.customers-review {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+
+
+.customer {
+  align-items: center;
+  gap: 0 20px;
+  width: 100%;
+}
+.customers-img {
+  max-width: 70px !important;
+  width: 100%;
+  height: auto !important;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.last-two-customer{
+  max-width: 70px !important;
+  height: auto !important;
+}
+.customer-name {
+  color: #323142;
+  font-size: 21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.time__with__us {
+  font-size: 17px;
+  color: #5e5d5d;
+  font-family: "Quicksand";
+  font-weight: 500;
+}
+.quote-img{
+  max-width: 60px !important;
+  width: 100%;
+}
+.slide-first-line {
+  justify-content: space-between;
+  display: none;
+  opacity: 0;
+  margin: 0 0 40px 0;
+}
+.review {
+  font-size: 18px;
+  color: #636363;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  line-height: 26px;
+}
+.rate-stars {
+  margin: 40px 0 0 0;
+}
+#arrow-right {
+  transform: rotate(180deg);
+}
+.swiper{
+    width: 100% !important;
+    height: 100%;
+    position: relative;
+}
+.swiper-slide {
+    width: 100%;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 5em 0;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+  .swiper-pagination{
+    position: relative!important;
+    margin: 0 auto !important;
+  }
+  .swiper-pagination-progressbar{
+    border-radius: 78.529px !important;
+    width: 100% ;
+    max-width: 650px !important;
+    background: rgba(108, 95, 188, 0.2) !important;
+    height: 10px !important;
+    
+}
+  .swiper-pagination-progressbar-fill{
+    border-radius: 78.529px !important;
+  background: #6c5fbc !important;
+  
+  }
+  .last-slide-first-line{
+    display: none;
+    opacity: 0;
+  }
+  .last-slide-active{
+    display: flex !important;
+    opacity: 1 !important;
+  }
+
+
+  /* Responsive Styles */
+
+
+  @media only screen and (min-width: 925px) and (max-width: 1200px) {
+    .customer-name {
+      font-size: 19px;
+    }
+    .time__with__us {
+      font-size: 15px;
+    }
+    .review {
+      font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 993px) {
+    .slide-first-line{
+      margin: 0 0 20px 0;
+    }
+    .customers-img{
+      width: 60px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 925px) {
+    .review{
+      font-size: 13px;
+    }
+    .customer-name {
+      font-size: 17px;
+    }
+    .time__with__us {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .slide-first-line{
+      margin: 0 0 20px 0;
+    }
+    .customers-img{
+      width: 60px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .swiper-slide{
+      padding: 20px 30px;
+      margin: 40px 10px 40px 0;
+    }
+    .customer-name{
+      font-size: 18px;
+    }
+    .time__with__us{
+      font-size: 14px;
+    }
+    .customers-img{
+      width: 50px;
+    }
+    .quote-img{
+      width: 40px;
+    }
+    .review{
+      font-size: 13px;
+    }
+    .rate-stars img {
+      max-width: 120px;
+    }
+    .rate-stars{
+      margin: 30px 0 0 0;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .swiper-slide{
+      padding: 20px 20px;
+    }
+    .customer-name{
+      font-size: 16px;
+    }
+    .time__with__us{
+      font-size: 12px;
+    }
+    .review{
+      font-size: 10px;
+      line-height: 20px;
+    }
+    .rate-stars img {
+      max-width: 100px;
+    }
+    .rate-stars{
+      margin: 25px 0 0 0;
+    }
+  }
+  @media only screen and (max-width: 352px) {
+    .customers-review{
+      padding: 0 15px;
+    }
+    .customer-name{
+      font-size: 14px;
+    }
+    .time__with__us{
+      font-size: 10px;
+    }
+    .review{
+      font-size: 9px;
+      line-height: 20px;
+    }
+    .rate-stars img {
+      max-width: 80px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .swiper-slide{
+      padding: 15px 15px;
+    }
+    .customer{
+      gap: 0 10px;
+    }
+    .quote-img{
+      max-width: 35px !important;
+    }
+    .rate-stars img {
+      max-width: 70px;
+    }
+  }

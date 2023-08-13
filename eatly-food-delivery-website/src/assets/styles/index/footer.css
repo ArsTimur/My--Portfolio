@@ -1,0 +1,141 @@
+.footer{
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    padding: 5em 30px 2.5em 30px;
+    justify-content: center;
+}
+.footer-container{
+    max-width: 1250px;
+    margin: 0 auto;
+    width: 100%;
+}
+.footer-first-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sitemap{
+    display: flex;
+    gap: 0 70px;
+}
+.foot__btn__link{
+    color: #999;
+    font-size: 17px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 26.743px;
+    text-transform: capitalize;
+}
+.line-in-footer{
+    margin: 30px 0;
+    opacity: 0.3;
+}
+.foot-sec-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.rights{
+    color: #999;
+    font-size: 17px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 25px;
+}
+.social-media{
+    display: flex;
+    gap: 0 50px;
+    align-items: center;
+}
+.soc-med{
+    cursor: pointer;
+}
+
+.mobile-social-container{
+    display: none;
+    gap: 0 40px;
+}
+
+
+
+/* Responsive Styles */
+
+
+@media only screen and (max-width: 768px) {
+    .footer{
+        padding: 5em 30px 1em 30px;
+      }
+      .footer-first-line{
+        flex-direction: column;
+        align-items: start;
+        gap: 50px 0;
+      }
+      .foot-sec-line{
+        padding: 20px 0;
+      }
+      .sitemap{
+        flex-direction: column;
+        gap: 30px 0;
+      }
+      .social-media{
+        display: none;
+      }
+      .foot__btn__link{
+        color: #606060;
+        text-transform: uppercase;
+      }
+      .rights{
+        margin: 0 auto;
+        color: #70798B;
+      }
+      .mobile-social-container{
+        display: flex;
+    }
+    .for-mobile-first-line{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .mobile-social-container{
+        gap: 0 20px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .footer{
+        padding: 4em 15px 1em 15px; 
+    }
+    .rights{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .rights{
+        font-size: 12px;
+    }
+    .mobile-social-container{
+        gap: 0 15px;
+    }
+    .foot__btn__link{
+        font-size: 15px;
+    }
+    .sitemap{
+        gap: 20px 0;
+    }
+    .foot-sec-line{
+        padding: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .rights{
+        font-size: 10px;
+    }
+    .for-mobile-first-line{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px 0;
+    }
+}

@@ -1,0 +1,244 @@
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 1100px) {
+  
+
+  .first__display {
+    padding: 0 0 0 80px;
+  }
+
+  .user__num {
+    font-size: 13px;
+    margin: 10px 0;
+  }
+  .big__title {
+    font-size: 64px;
+    margin: 0 0;
+    line-height: 70px;
+  }
+  .firstdisp__descr {
+    font-size: 15px;
+    margin: 20px 0 0 0;
+  }
+
+  .firstdisp__buttons {
+    font-size: 11.5px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 992px) {
+  .first__display {
+    padding: 0 0 0 30px;
+  }
+
+  .big__title {
+    font-size: 55px;
+  }
+  .firstdisp__descr {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .num__of__achieve {
+    font-size: 35px;
+  }
+  .descr__to__achieve {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  .big__title {
+    font-size: 52.5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .first__display {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+
+  .first-disp-pic {
+    padding: 0 30px;
+  }
+  .first__display__paragraf {
+    margin: 0 auto;
+  }
+  .user__num {
+    margin: 20px 0 0 0;
+    justify-content: center;
+  }
+  .big__title {
+    font-size: 70px;
+    line-height: 90px;
+    letter-spacing: -1.85px;
+  }
+  .firstdisp__descr {
+    font-size: 18px;
+    margin: 15px auto 0 auto;
+  }
+  .first-disp-pic {
+    margin: 2em 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .first__display__paragraf {
+    text-align: center;
+  }
+  .firstdisp__descr {
+    text-align: center;
+  }
+  .firstdisp__buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .rating__on__trustpilot {
+    display: flex;
+    justify-content: center;
+  }
+  .achieves__block {
+    flex-direction: column;
+    gap: 70px 0;
+    padding: 50px;
+  }
+  .delimiter__line {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto !important;
+  }
+  .num__of__achieve {
+    font-size: 43.2px;
+  }
+  .descr__to__achieve {
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .user__num {
+    color: black;
+  }
+  .big__title {
+    font-size: 60px;
+    line-height: 80px;
+    margin: 10px 0 0 0;
+  }
+  .firstdisp__descr {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 560px) {
+}
+@media only screen and (max-width: 480px) {
+  .big__title {
+    font-size: 52px;
+    line-height: 60px;
+    margin: 20px 0 0 0;
+  }
+  .firstdisp__descr {
+    font-size: 13px;
+  }
+
+  .first-disp-pic {
+    padding: 0;
+  }
+  .quote-img {
+  }
+}
+@media only screen and (max-width: 420px) {
+ 
+  .user__num {
+    color: black;
+  }
+  .big__title {
+    font-size: 43px;
+    line-height: 60px;
+    margin: 10px 0;
+  }
+  .firstdisp__descr {
+    font-size: 12px;
+    margin: 10px 0;
+    line-height: 20px;
+  }
+  .firstdisp__buttons {
+    margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 380px) {
+}
+@media only screen and (max-width: 350px) {
+  .num__of__achieve {
+    font-size: 40px;
+  }
+  .descr__to__achieve {
+    font-size: 14px;
+  }
+  .big__title {
+    font-size: 39px;
+    line-height: 50px;
+  }
+  .rating__on__trustpilot {
+    line-height: -10px;
+  }
+  .num__of__feedbacks {
+    font-size: 12px;
+  }
+  .trust-pilot-svg {
+    width: 80px;
+  }
+  .rating-stars-svg {
+    width: 70px;
+  }
+  .achievements {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .user__num {
+    color: black;
+    font-size: 11px;
+  }
+  .big__title {
+    font-size: 34px;
+    line-height: 45px;
+    margin: 10px 0;
+  }
+  .firstdisp__descr {
+    font-size: 11px;
+    margin: 10px 0;
+    line-height: 15px;
+  }
+  .descr__to__achieve {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .big__title {
+    font-size: 30px;
+  }
+  .users{
+    font-size: 9px;
+  }
+  .num__of__feedbacks {
+    font-size: 8px;
+  }
+  .fd__btn {
+    font-size: 9px;
+  }
+  .get__started {
+    max-width: 90px;
+    padding: 13px 15px;
+  }
+  .go__pro {
+    padding: 13px 15px;
+    max-width: 65px;
+  }
+}
+@media only screen and (min-width: 320px) {
+}
+@media only screen and (min-width: 480px) {
+}

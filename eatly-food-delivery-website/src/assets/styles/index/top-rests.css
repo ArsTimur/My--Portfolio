@@ -1,0 +1,230 @@
+.our-restaurants-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.restaurant__block {
+  display: flex;
+  margin: 80px auto;
+  gap: 0 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.top__restaurant {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background: #ffffff;
+  border: 1.25095px solid #f4f4f6;
+  box-shadow: 6px 71.3px 35.6px rgba(229, 229, 229, 0.7);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  user-select: none;
+  margin: 1em 0;
+  flex-basis: calc(33% - 30px);
+}
+.rest__info {
+  padding: 5px 30px 20px 30px;
+}
+.restaurant__type {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #daa31a;
+  background-color: #f7edd0;
+  border-radius: 6px;
+  max-width: 65px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rest__title {
+  color: #323142;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 42px;
+  font-size: 26px;
+  margin: 0 0 5px 0;
+}
+.type__trending {
+  width: 75px;
+  color: #fb471d;
+  background-color: #f7c5ba;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 6px;
+  max-width: 65px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last__info__line {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+  justify-content: space-between;
+}
+.rest__minutes {
+  display: flex;
+  align-items: center;
+  color: #8e97a6;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+}
+.rest__stars {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+.min__and__rate {
+  display: flex;
+  gap: 0 10px;
+  align-items: center;
+}
+.rest__rating {
+  display: flex;
+  align-items: center;
+  color: #8e97a6;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+}
+.bookmarksvg circle {
+  transition: 0.2s ease;
+}
+
+.view-all {
+  display: flex;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.1px;
+  color: #acadb9;
+  align-items: center;
+  justify-content: flex-end;
+  line-height: 17px;
+  transition: 0.3s ease;
+  margin: 80px 0;
+}
+.view-all-btn {
+  display: flex;
+  cursor: pointer;
+  gap: 0 15px;
+  transition: 0.3s ease;
+}
+.view-all-btn:hover {
+  color: #787882;
+}
+
+.after__top__rests {
+  margin: 8em auto;
+}
+.hide__styles {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #acadb9;
+  align-items: center;
+  line-height: 17px;
+  justify-content: flex-end;
+  transition: 0.3s ease;
+}
+.hide__rests {
+  display: none;
+  cursor: pointer;
+  align-items: center;
+  gap: 0 15px;
+  letter-spacing: -0.1px;
+}
+.hide__left__arrow {
+  transform: rotate(-90deg);
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 1200px) {
+  .restaurant__block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 30px;
+    margin: 30px auto;
+  }
+  .restaurant__type {
+    font-size: 11px;
+  }
+  .rest__title {
+    font-size: 20px;
+  }
+  .rest__minutes,
+  .rest__rating {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .rest__title {
+    font-size: 26px;
+  }
+  .rest__minutes,
+  .rest__rating {
+    font-size: 20px;
+  }
+  .restaurant__type {
+    font-size: 13px;
+  }
+  .top__restaurant {
+    flex-basis: auto;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .rest__title {
+    font-size: 20px;
+  }
+  .our-restaurants-container {
+    padding: 0 20px;
+  }
+  .rest__minutes {
+    font-size: 17px;
+  }
+  .rest__rating {
+    font-size: 17px;
+  }
+  .restaurant__type {
+    font-size: 11px !important;
+  }
+  .bookmarksvg {
+    width: 35px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .rest__title {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .rest__title{
+    font-size: 18px;
+}
+}
+@media only screen and (max-width: 280px) {
+  .rest__title{
+    font-size: 17px;
+   }
+   .rest__minutes{
+    font-size: 15px;
+}
+.rest__rating{
+    font-size: 15px;
+}
+.restaurant__type{
+    font-size: 10px !important;
+}
+.bookmarksvg{
+    width: 30px;
+}
+.rest__info{
+    padding: 5px 30px 10px 30px;
+}
+}
