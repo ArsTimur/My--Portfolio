@@ -1,0 +1,84 @@
+.to-block-title{
+    color: #323142;
+    font-size: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+}
+.two-line-title{
+    line-height: 60px;
+    max-width: 485px;
+    font-weight: 700;
+    font-size: 51px;
+}
+.title-purple-word {
+    color: #6C5FBC;
+}
+.ta-center{
+    text-align: center;
+}
+.line-after-block{
+    max-width: 1220px;
+    opacity: 0.3;
+    margin: 5em auto;
+}
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive Styles For Some Elements */
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .one-line-title{
+        font-size: 35px !important;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .two-line-title{
+        line-height: 50px;
+    }
+}
+@media only screen and (max-width: 480px) {
+.one-line-title{
+    font-size: 40px !important;
+}
+
+}
+@media only screen and (max-width: 420px) {
+    .one-line-title{
+        font-size: 34px !important;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .one-line-title{
+        padding: 0 30px !important;
+    }
+    .view-all,
+    .hide__styles{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .one-line-title{
+        font-size: 28px !important;
+        padding: 0 20px !important;
+        line-height: 30px;
+    }
+}
+
+
+
+
+
+
+
