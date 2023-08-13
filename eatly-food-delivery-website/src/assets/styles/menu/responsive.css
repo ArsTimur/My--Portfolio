@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1250px){
+    .first-display{
+    gap: 0 50px;
+}
+.slide-and-search{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .search-input{
+    margin: 0 auto;
+  }
+  .choose-food-or-rest{
+    justify-content: center;
+  }
+  .category{
+    max-width: 70px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px){
+    
+}
