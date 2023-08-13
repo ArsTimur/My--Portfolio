@@ -1,0 +1,145 @@
+
+.our-pricing{
+    max-width: 1250px;
+    margin: 50px auto;
+    padding: 0 30px;
+}
+.our-pricing-img{
+    width: 100%;
+    height: auto;
+}
+.pricing-section{
+    width: 100%;
+    margin: 5em auto;
+    padding: 0 30px;
+}
+.pricing-container{
+    max-width: 1250px;
+    margin: 0 auto;
+    
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1),
+              0px 30px 60px rgba(0, 0, 0, 0.2),
+              0px -1px 50px rgba(0, 0, 0, 0.1);
+    padding: 0 0 50px 0;
+            }
+
+.pricing-table{
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+.first-line{
+    padding: 40px 50px 0 50px;
+}
+.second-line{
+    padding: 0 50px;
+}
+.features-title-line{
+    padding:  0 50px;
+    margin: 40px 0 10px 0;
+}
+.pricing-column {
+    display: table-cell;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+.first-column{
+    width: 600px;
+}
+.second-column,
+.third-column{
+    width: 200px;
+}
+.second-column{
+    width: 350px;
+}
+.pricing-title{
+    color: #282828;
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.pricing-descr{
+    color: #6E757C;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.price{
+    color: #272E35;
+    font-family: 'Poppins';
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -0.12em;
+    line-height: 1;
+}
+.price sub {
+    color: #6E757C;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    vertical-align: baseline;
+    letter-spacing: 0em;
+}
+.price sup {
+    color: #272E35;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    vertical-align: top;
+}
+.features-title{
+    color:#272E35;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+   
+}
+.features-line{
+    padding: 0 50px;
+}
+.feature{
+    color: #606060;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+}
+.arrow-after-line{
+    opacity: 0.4;
+}
+.last-after-line{
+    margin: 50px 0;
+}
+.buttons-line{
+    padding: 0 50px;
+}
+.start-btn{
+    border-radius: 15px;
+    background: #6C5FBC;
+    color: #F9F9F9;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    width: 145px;
+    height: 60px;
+    cursor: pointer;
+}
+.dashboard-in-pricing{
+    margin: 20em auto 0 auto !important;
+}
+.customers-say-title{
+    margin: 3em 0 0 0;
+}
+.customers-review{
+    margin: 0 auto 10em auto !important;
+}
